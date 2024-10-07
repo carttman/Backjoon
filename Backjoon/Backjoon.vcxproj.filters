@@ -48,5 +48,8 @@
     <ClCompile Include="11660_구간 합 구하기 5.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="7576_토마토.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
