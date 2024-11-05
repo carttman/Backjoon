@@ -27,7 +27,7 @@ int main()
 
 		Window.push_back(Node(i, currNumber));
 
-		if(Window.front().first <= Window.back().first - L) // 윈도우의 범위를 벗어났다면, 첫번재 인덱스 <= 마지막 데이터 인덱스 - L
+		if(Window.front().first + L <= Window.back().first) // 윈도우의 범위를 벗어났다면, 첫번재 인덱스 <= 마지막 데이터 인덱스 - L
 		{
 			Window.pop_front(); // 맨 앞에 값 뺀다.
 		}
