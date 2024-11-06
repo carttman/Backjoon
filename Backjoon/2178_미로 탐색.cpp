@@ -9,7 +9,7 @@ int Column[4] = {0, 1, 0, -1}; // y
 
 //맵, 방문 초기화
 int Map[101][101];
-bool Visited[101][101] = {false}; 
+bool Visited[101][101] = {false,}; 
 
 int N, M;
 

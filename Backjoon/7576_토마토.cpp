@@ -1,12 +1,32 @@
 #include <iostream>
-#include <vector>
+#include <queue>
 
 using namespace std;
 
+static int row[4] = {1, 0, -1, 0};
+static int column[4] = {0, 1, 0, -1};
 
-void Bfs(int here)
+int Map[1001][1001] = {0,};
+bool Visited[1001][1001] = {false,};
+int M, N; // row , column
+
+
+void BFS(int row, int column)
 {
+	queue<pair<int, int>> q;
+	q.push(make_pair(row, column)); // 현재 좌표 큐에 저장
+
 	
+	Visited[row][column] = true; // 방문 체크
+
+	while (!q.empty())
+	{
+		if()
+		{
+			
+		}
+	}
+
 }
 
 int main()
@@ -15,24 +35,18 @@ int main()
 	cout.tie(NULL);
 	cin.tie(NULL);
 
-	int M, N;
 	cin >> M >> N;
-
-	vector<vector<int>> A(N, vector<int> (M, 0));
-	vector<int> visited;
 
 	for(int i=0; i < N; i++)
 	{
-
 		for(int j=0; j < M; j++)
 		{
-			int k=0;
+			int k;
 			cin >> k;
-			A[i][j] = k;
 
-
+			Map[i][j] = k;
 		}
 	}
 
-
+	//BFS()
 }
