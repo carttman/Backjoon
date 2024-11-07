@@ -7,6 +7,9 @@
       "RelativeMoniker": "D:0:0:{9193F057-6ECB-41E3-AB91-8025920F20FB}|Backjoon\\Backjoon.vcxproj|solutionrelative:Backjoon\\7576_\uD1A0\uB9C8\uD1A0.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9193F057-6ECB-41E3-AB91-8025920F20FB}|Backjoon\\Backjoon.vcxproj|C:\\PROGRAM FILES\\MICROSOFT VISUAL STUDIO\\2022\\COMMUNITY\\VC\\TOOLS\\MSVC\\14.38.33130\\INCLUDE\\XUTILITY||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9193F057-6ECB-41E3-AB91-8025920F20FB}|Backjoon\\Backjoon.vcxproj|D:\\CodingTest\\Backjoon\\Backjoon\\2178_\uBBF8\uB85C \uD0D0\uC0C9.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9193F057-6ECB-41E3-AB91-8025920F20FB}|Backjoon\\Backjoon.vcxproj|solutionrelative:Backjoon\\2178_\uBBF8\uB85C \uD0D0\uC0C9.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -18,7 +21,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -27,12 +30,23 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "xutility",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\xutility",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\xutility",
+              "ViewState": "AQIAAJcWAAAAAAAAAIAwwKcWAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-07T06:19:20.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "2178_\uBBF8\uB85C \uD0D0\uC0C9.cpp",
               "DocumentMoniker": "D:\\CodingTest\\Backjoon\\Backjoon\\2178_\uBBF8\uB85C \uD0D0\uC0C9.cpp",
               "RelativeDocumentMoniker": "Backjoon\\2178_\uBBF8\uB85C \uD0D0\uC0C9.cpp",
               "ToolTip": "D:\\CodingTest\\Backjoon\\Backjoon\\2178_\uBBF8\uB85C \uD0D0\uC0C9.cpp",
               "RelativeToolTip": "Backjoon\\2178_\uBBF8\uB85C \uD0D0\uC0C9.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-06T08:38:06.835Z",
               "EditorCaption": ""
@@ -45,7 +59,7 @@
               "RelativeDocumentMoniker": "Backjoon\\7576_\uD1A0\uB9C8\uD1A0.cpp",
               "ToolTip": "D:\\CodingTest\\Backjoon\\Backjoon\\7576_\uD1A0\uB9C8\uD1A0.cpp",
               "RelativeToolTip": "Backjoon\\7576_\uD1A0\uB9C8\uD1A0.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAiwBcAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-06T08:31:34.467Z",
               "EditorCaption": ""
