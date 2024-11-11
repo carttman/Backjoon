@@ -148,6 +148,7 @@
     <ClCompile Include="11659_구간 합 구하기 4.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="1753_최단거리.cpp" />
     <ClCompile Include="1847_스택으로 수열 만들기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

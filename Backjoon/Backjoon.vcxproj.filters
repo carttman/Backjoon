@@ -54,5 +54,8 @@
     <ClCompile Include="2178_미로 탐색.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="1753_최단거리.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
