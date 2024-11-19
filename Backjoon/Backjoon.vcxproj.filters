@@ -57,5 +57,8 @@
     <ClCompile Include="1753_최단거리.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="10986_나머지 합.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
