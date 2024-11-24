@@ -24,19 +24,7 @@
     <ClCompile Include="11659_구간 합 구하기 4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="11660_구간 합 구하기 2.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Test.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="1847_스택으로 수열 만들기.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="11003_최솟값 찾기 1.cpp">
