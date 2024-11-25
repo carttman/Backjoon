@@ -48,5 +48,8 @@
     <ClCompile Include="10986_나머지 합.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="2018_수들의 합.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
