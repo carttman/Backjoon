@@ -54,5 +54,8 @@
     <ClCompile Include="1940_주몽.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="1253_좋다.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
