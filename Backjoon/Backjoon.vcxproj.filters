@@ -13,6 +13,18 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Siver">
+      <UniqueIdentifier>{18f3f93c-8e33-4ef3-a0b4-73fd583e9a0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gold">
+      <UniqueIdentifier>{589089ec-be96-46cc-b3b0-cc2aa7d8ec87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Platinum">
+      <UniqueIdentifier>{d3529959-131f-4161-b5b5-6d4d0edd9eb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bronze">
+      <UniqueIdentifier>{0fa40ff0-ae07-46e7-98e6-6c6d7eaae124}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="11720_숫자의 합.cpp">
@@ -36,9 +48,6 @@
     <ClCompile Include="11660_구간 합 구하기 5.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="7576_토마토.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="2178_미로 탐색.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -51,10 +60,25 @@
     <ClCompile Include="2018_수들의 합.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="1940_주몽.cpp">
+    <ClCompile Include="11286_절댓값 힙.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="7576_토마토.cpp">
+      <Filter>Source Files\Gold</Filter>
+    </ClCompile>
     <ClCompile Include="1253_좋다.cpp">
+      <Filter>Source Files\Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="1940_주몽.cpp">
+      <Filter>Source Files\Siver</Filter>
+    </ClCompile>
+    <ClCompile Include="2750_수 정렬하기.cpp">
+      <Filter>Source Files\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="17298_오큰수.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="2164_카드2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="17298_오큰수.cpp">
