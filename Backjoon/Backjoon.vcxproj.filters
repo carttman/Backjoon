@@ -25,44 +25,11 @@
     <Filter Include="Source Files\Bronze">
       <UniqueIdentifier>{0fa40ff0-ae07-46e7-98e6-6c6d7eaae124}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\ETC">
+      <UniqueIdentifier>{3ba822aa-311c-46f2-a017-b2ddec6df5ca}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="11720_숫자의 합.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="1546_평균 구하기.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="11659_구간 합 구하기 4.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="1847_스택 수열.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="11003_최솟값 찾기 1.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="12891_DNA 비밀번호.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="11660_구간 합 구하기 5.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="2178_미로 탐색.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="1753_최단거리.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="10986_나머지 합.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="2018_수들의 합.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="11286_절댓값 힙.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="7576_토마토.cpp">
       <Filter>Source Files\Gold</Filter>
     </ClCompile>
@@ -81,14 +48,50 @@
     <ClCompile Include="2164_카드2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="17298_오큰수.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="2164_카드2.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="1377_버블 소트.cpp">
       <Filter>Source Files\Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="17298_오큰수.cpp">
+      <Filter>Source Files\Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="1753_최단거리.cpp">
+      <Filter>Source Files\Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="11003_최솟값 찾기 1.cpp">
+      <Filter>Source Files\Platinum</Filter>
+    </ClCompile>
+    <ClCompile Include="11286_절댓값 힙.cpp">
+      <Filter>Source Files\Siver</Filter>
+    </ClCompile>
+    <ClCompile Include="2164_카드2.cpp">
+      <Filter>Source Files\Siver</Filter>
+    </ClCompile>
+    <ClCompile Include="12891_DNA 비밀번호.cpp">
+      <Filter>Source Files\Siver</Filter>
+    </ClCompile>
+    <ClCompile Include="1847_스택 수열.cpp">
+      <Filter>Source Files\Siver</Filter>
+    </ClCompile>
+    <ClCompile Include="11659_구간 합 구하기 4.cpp">
+      <Filter>Source Files\Siver</Filter>
+    </ClCompile>
+    <ClCompile Include="11660_구간 합 구하기 5.cpp">
+      <Filter>Source Files\Siver</Filter>
+    </ClCompile>
+    <ClCompile Include="10986_나머지 합.cpp">
+      <Filter>Source Files\Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="2018_수들의 합.cpp">
+      <Filter>Source Files\Siver</Filter>
+    </ClCompile>
+    <ClCompile Include="11720_숫자의 합.cpp">
+      <Filter>Source Files\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="2178_미로 탐색.cpp">
+      <Filter>Source Files\Siver</Filter>
+    </ClCompile>
+    <ClCompile Include="1546_평균 구하기.cpp">
+      <Filter>Source Files\Bronze</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
