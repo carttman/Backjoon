@@ -87,5 +87,8 @@
     <ClCompile Include="2164_카드2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="1377_버블 소트.cpp">
+      <Filter>Source Files\Gold</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
