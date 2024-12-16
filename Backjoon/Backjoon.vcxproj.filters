@@ -42,12 +42,6 @@
     <ClCompile Include="2750_수 정렬하기.cpp">
       <Filter>Source Files\Bronze</Filter>
     </ClCompile>
-    <ClCompile Include="17298_오큰수.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="2164_카드2.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="1377_버블 소트.cpp">
       <Filter>Source Files\Gold</Filter>
     </ClCompile>
@@ -92,6 +86,15 @@
     </ClCompile>
     <ClCompile Include="1546_평균 구하기.cpp">
       <Filter>Source Files\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="11399_ATM.cpp">
+      <Filter>Source Files\Siver</Filter>
+    </ClCompile>
+    <ClCompile Include="2164_카드2.cpp">
+      <Filter>Source Files\Siver</Filter>
+    </ClCompile>
+    <ClCompile Include="17298_오큰수.cpp">
+      <Filter>Source Files\Gold</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
