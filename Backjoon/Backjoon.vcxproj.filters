@@ -99,5 +99,8 @@
     <ClCompile Include="11004_K번째 수.cpp">
       <Filter>Source Files\Siver</Filter>
     </ClCompile>
+    <ClCompile Include="2751_수 정렬하기 2.cpp">
+      <Filter>Source Files\Siver</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
