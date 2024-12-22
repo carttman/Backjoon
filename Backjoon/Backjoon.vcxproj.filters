@@ -108,5 +108,8 @@
     <ClCompile Include="10989_수 정렬하기 3.cpp">
       <Filter>Source Files\Siver</Filter>
     </ClCompile>
+    <ClCompile Include="11724_연결 요소의 개수.cpp">
+      <Filter>Source Files\Siver</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
