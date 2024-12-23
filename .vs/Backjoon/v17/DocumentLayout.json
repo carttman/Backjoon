@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\Backjoon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9193F057-6ECB-41E3-AB91-8025920F20FB}|Backjoon\\Backjoon.vcxproj|D:\\Backjoon\\Backjoon\\1427_\uC18C\uD2B8\uC778\uC0AC\uC774\uB4DC.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9193F057-6ECB-41E3-AB91-8025920F20FB}|Backjoon\\Backjoon.vcxproj|solutionrelative:Backjoon\\1427_\uC18C\uD2B8\uC778\uC0AC\uC774\uB4DC.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{9193F057-6ECB-41E3-AB91-8025920F20FB}|Backjoon\\Backjoon.vcxproj|D:\\Backjoon\\Backjoon\\2023_\uC2E0\uAE30\uD55C \uC18C\uC218.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9193F057-6ECB-41E3-AB91-8025920F20FB}|Backjoon\\Backjoon.vcxproj|solutionrelative:Backjoon\\2023_\uC2E0\uAE30\uD55C \uC18C\uC218.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9193F057-6ECB-41E3-AB91-8025920F20FB}|Backjoon\\Backjoon.vcxproj|D:\\Backjoon\\Backjoon\\11724_\uC5F0\uACB0 \uC694\uC18C\uC758 \uAC1C\uC218.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9193F057-6ECB-41E3-AB91-8025920F20FB}|Backjoon\\Backjoon.vcxproj|solutionrelative:Backjoon\\11724_\uC5F0\uACB0 \uC694\uC18C\uC758 \uAC1C\uC218.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9193F057-6ECB-41E3-AB91-8025920F20FB}|Backjoon\\Backjoon.vcxproj|D:\\Backjoon\\Backjoon\\1427_\uC18C\uD2B8\uC778\uC0AC\uC774\uB4DC.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9193F057-6ECB-41E3-AB91-8025920F20FB}|Backjoon\\Backjoon.vcxproj|solutionrelative:Backjoon\\1427_\uC18C\uD2B8\uC778\uC0AC\uC774\uB4DC.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9193F057-6ECB-41E3-AB91-8025920F20FB}|Backjoon\\Backjoon.vcxproj|D:\\Backjoon\\Backjoon\\10989_\uC218 \uC815\uB82C\uD558\uAE30 3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -59,12 +63,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "2023_\uC2E0\uAE30\uD55C \uC18C\uC218.cpp",
+              "DocumentMoniker": "D:\\Backjoon\\Backjoon\\2023_\uC2E0\uAE30\uD55C \uC18C\uC218.cpp",
+              "RelativeDocumentMoniker": "Backjoon\\2023_\uC2E0\uAE30\uD55C \uC18C\uC218.cpp",
+              "ToolTip": "D:\\Backjoon\\Backjoon\\2023_\uC2E0\uAE30\uD55C \uC18C\uC218.cpp",
+              "RelativeToolTip": "Backjoon\\2023_\uC2E0\uAE30\uD55C \uC18C\uC218.cpp",
+              "ViewState": "AgIAACAAAAAAAAAAAADwvzgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-23T11:01:05.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "1427_\uC18C\uD2B8\uC778\uC0AC\uC774\uB4DC.cpp",
               "DocumentMoniker": "D:\\Backjoon\\Backjoon\\1427_\uC18C\uD2B8\uC778\uC0AC\uC774\uB4DC.cpp",
               "RelativeDocumentMoniker": "Backjoon\\1427_\uC18C\uD2B8\uC778\uC0AC\uC774\uB4DC.cpp",
               "ToolTip": "D:\\Backjoon\\Backjoon\\1427_\uC18C\uD2B8\uC778\uC0AC\uC774\uB4DC.cpp",
               "RelativeToolTip": "Backjoon\\1427_\uC18C\uD2B8\uC778\uC0AC\uC774\uB4DC.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwsAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-23T10:57:02.014Z",
               "EditorCaption": ""
@@ -84,7 +101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "10989_\uC218 \uC815\uB82C\uD558\uAE30 3.cpp",
               "DocumentMoniker": "D:\\Backjoon\\Backjoon\\10989_\uC218 \uC815\uB82C\uD558\uAE30 3.cpp",
               "RelativeDocumentMoniker": "Backjoon\\10989_\uC218 \uC815\uB82C\uD558\uAE30 3.cpp",
@@ -96,7 +113,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "1517_\uBC84\uBE14 \uC18C\uD2B8.cpp",
               "DocumentMoniker": "D:\\Backjoon\\Backjoon\\1517_\uBC84\uBE14 \uC18C\uD2B8.cpp",
               "RelativeDocumentMoniker": "Backjoon\\1517_\uBC84\uBE14 \uC18C\uD2B8.cpp",
@@ -108,7 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "2751_\uC218 \uC815\uB82C\uD558\uAE30 2.cpp",
               "DocumentMoniker": "D:\\Backjoon\\Backjoon\\2751_\uC218 \uC815\uB82C\uD558\uAE30 2.cpp",
               "RelativeDocumentMoniker": "Backjoon\\2751_\uC218 \uC815\uB82C\uD558\uAE30 2.cpp",
@@ -120,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "11004_K\uBC88\uC9F8 \uC218.cpp",
               "DocumentMoniker": "D:\\Backjoon\\Backjoon\\11004_K\uBC88\uC9F8 \uC218.cpp",
               "RelativeDocumentMoniker": "Backjoon\\11004_K\uBC88\uC9F8 \uC218.cpp",
@@ -132,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "11399_ATM.cpp",
               "DocumentMoniker": "D:\\Backjoon\\Backjoon\\11399_ATM.cpp",
               "RelativeDocumentMoniker": "Backjoon\\11399_ATM.cpp",
@@ -144,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "1546_\uD3C9\uADE0 \uAD6C\uD558\uAE30.cpp",
               "DocumentMoniker": "D:\\Backjoon\\Backjoon\\1546_\uD3C9\uADE0 \uAD6C\uD558\uAE30.cpp",
               "RelativeDocumentMoniker": "Backjoon\\1546_\uD3C9\uADE0 \uAD6C\uD558\uAE30.cpp",
@@ -156,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "11720_\uC22B\uC790\uC758 \uD569.cpp",
               "DocumentMoniker": "D:\\Backjoon\\Backjoon\\11720_\uC22B\uC790\uC758 \uD569.cpp",
               "RelativeDocumentMoniker": "Backjoon\\11720_\uC22B\uC790\uC758 \uD569.cpp",
@@ -168,7 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "1377_\uBC84\uBE14 \uC18C\uD2B8.cpp",
               "DocumentMoniker": "D:\\Backjoon\\Backjoon\\1377_\uBC84\uBE14 \uC18C\uD2B8.cpp",
               "RelativeDocumentMoniker": "Backjoon\\1377_\uBC84\uBE14 \uC18C\uD2B8.cpp",
@@ -180,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "2164_\uCE74\uB4DC2.cpp",
               "DocumentMoniker": "D:\\Backjoon\\Backjoon\\2164_\uCE74\uB4DC2.cpp",
               "RelativeDocumentMoniker": "Backjoon\\2164_\uCE74\uB4DC2.cpp",
