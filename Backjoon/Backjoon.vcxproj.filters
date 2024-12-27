@@ -117,5 +117,8 @@
     <ClCompile Include="2023_신기한 소수.cpp">
       <Filter>Source Files\Gold</Filter>
     </ClCompile>
+    <ClCompile Include="13023_ABCDE.cpp">
+      <Filter>Source Files\Gold</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
