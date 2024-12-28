@@ -120,5 +120,8 @@
     <ClCompile Include="13023_ABCDE.cpp">
       <Filter>Source Files\Gold</Filter>
     </ClCompile>
+    <ClCompile Include="1260_BFS와 DFS.cpp">
+      <Filter>Source Files\Siver</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
