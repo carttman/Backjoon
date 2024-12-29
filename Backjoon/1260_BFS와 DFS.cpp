@@ -6,7 +6,7 @@
 using namespace std;
 
 vector<vector<int>> A;
-vector<bool> Visited;
+vector<bool> My_Visited;
 bool Arrive;
 void DFS(int node);
 void BFS(int node);
@@ -35,11 +35,11 @@ int main()
 		sort(A[i].begin(), A[i].end());
 	}
 
-	Visited = vector<bool>(N + 1, false);
+	My_Visited = vector<bool>(N + 1, false);
 
 	DFS(Start);
 	cout << "\n";
-	fill(Visited.begin(), Visited.end(), false);
+	fill(My_Visited.begin(), My_Visited.end(), false);
 	BFS(Start);
 	cout << "\n";
 }
@@ -47,11 +47,11 @@ int main()
 void DFS(int node)
 {
 	cout << node << " ";
-	Visited[node] = true;
+	My_Visited[node] = true;
 
 	for(const int &i : A[node])
 	{
-		if(!Visited[i])
+		if(!My_Visited[i])
 		{
 			DFS(i);
 		}
@@ -62,7 +62,7 @@ void BFS(int node)
 {
 	queue<int> myQueue;
 	myQueue.push(node);
-	Visited[node] = true;
+	My_Visited[node] = true;
 
 	while(!myQueue.empty())
 	{
@@ -71,9 +71,9 @@ void BFS(int node)
 		cout<<now_node<<"\n";
 		for(const int &i : A[now_node])
 		{
-			if(!Visited[i])
+			if(!My_Visited[i])
 			{
-				Visited[i] = true;
+				My_Visited[i] = true;
 				myQueue.push(i);
 			}
 		}

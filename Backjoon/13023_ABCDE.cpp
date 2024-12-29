@@ -4,7 +4,7 @@
 using namespace std;
 
 vector<vector<int>> A; // 데이터 저장 인접 리스트
-vector<bool> Visited; // 방문 배열 
+vector<bool> My_Visited; // 방문 배열 
 bool Arrive; // 도착 확인
 
 void DFS(int now, int depth);
@@ -20,7 +20,7 @@ int main()
 	cin >> N >> M;
 
 	A.resize(N);
-	Visited = vector<bool>(N, false);
+	My_Visited = vector<bool>(N, false);
 
 	for(int i=0; i<M; i++)
 	{
@@ -59,15 +59,15 @@ void DFS(int now, int depth)
 		Arrive = true;
 		return;
 	}
-	Visited[now] = true; // 방문 체크
+	My_Visited[now] = true; // 방문 체크
 
 	for(const int &i : A[now]) //방문 하지 않은 노드 찾아서 depth 올리고 DFS 실행한다.
 	{
-		if(!Visited[i])
+		if(!My_Visited[i])
 		{
 			DFS(i, depth + 1);
 		}
 	}
 
-	Visited[now] = false;
+	My_Visited[now] = false;
 }

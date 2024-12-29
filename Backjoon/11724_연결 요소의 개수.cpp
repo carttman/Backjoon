@@ -4,7 +4,7 @@
 using namespace std;
 
 vector<vector<int>> A;
-vector<bool> Visited;
+vector<bool> My_Visited;
 void DFS(int Vertex);
 
 int main()
@@ -18,7 +18,7 @@ int main()
 
 	A.resize(N+1);
 
-	Visited = vector<bool>(N + 1, false);
+	My_Visited = vector<bool>(N + 1, false);
 
 	for(int i=0; i< M; i++) //인접 리스트 값 채우기
 	{
@@ -33,7 +33,7 @@ int main()
 
 	for(int i=1; i<=N; i++) // DFS 실행
 	{
-		if(!Visited[i])
+		if(!My_Visited[i])
 		{
 			count++;
 			DFS(i);
@@ -46,16 +46,16 @@ int main()
 
 void DFS(int Vertex)
 {
-	if(Visited[Vertex]) // 이미 방문했으면 취소
+	if(My_Visited[Vertex]) // 이미 방문했으면 취소
 	{
 		return;
 	}
 
-	Visited[Vertex] = true; // 방문 체크
+	My_Visited[Vertex] = true; // 방문 체크
 
 	for(const int &i : A[Vertex]) // 
 	{
-		if(!Visited[i]) // 방문하지 않은 노드로 DFS 실행
+		if(!My_Visited[i]) // 방문하지 않은 노드로 DFS 실행
 		{
 			DFS(i);
 		}

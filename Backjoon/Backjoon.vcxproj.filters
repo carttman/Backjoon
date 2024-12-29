@@ -123,5 +123,8 @@
     <ClCompile Include="1260_BFS와 DFS.cpp">
       <Filter>Source Files\Siver</Filter>
     </ClCompile>
+    <ClCompile Include="1167_트리의 지름.cpp">
+      <Filter>Source Files\Gold</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
