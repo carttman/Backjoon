@@ -129,5 +129,41 @@
     <ClCompile Include="1920_수 찾기.cpp">
       <Filter>Source Files\Siver</Filter>
     </ClCompile>
+    <ClCompile Include="2343_기타 레슨.cpp">
+      <Filter>Source Files\Siver</Filter>
+    </ClCompile>
+    <ClCompile Include="1330_두 수 비교하기cpp.cpp">
+      <Filter>Source Files\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="2475_검증수.cpp">
+      <Filter>Source Files\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="2739_구구단.cpp">
+      <Filter>Source Files\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="2741_N 찍기.cpp">
+      <Filter>Source Files\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="2753_윤년.cpp">
+      <Filter>Source Files\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="9498_시험 성적.cpp">
+      <Filter>Source Files\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="10171_고양이.cpp">
+      <Filter>Source Files\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="10828_스택.cpp">
+      <Filter>Source Files\Siver</Filter>
+    </ClCompile>
+    <ClCompile Include="10845_큐.cpp">
+      <Filter>Source Files\Siver</Filter>
+    </ClCompile>
+    <ClCompile Include="1676_팩토리얼 0의 개수.cpp">
+      <Filter>Source Files\Siver</Filter>
+    </ClCompile>
+    <ClCompile Include="1181_단어 정렬.cpp">
+      <Filter>Source Files\Siver</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
