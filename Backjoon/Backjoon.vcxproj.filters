@@ -174,5 +174,20 @@
     <ClCompile Include="1744_수 묶기.cpp">
       <Filter>Source Files\Gold</Filter>
     </ClCompile>
+    <ClCompile Include="1456_거의 소수.cpp">
+      <Filter>Source Files\Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="1747_소수&amp;팰린드롬.cpp">
+      <Filter>Source Files\Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="1016_제곱이아닌수.cpp">
+      <Filter>Source Files\Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="1934_최소 공배수 구하기.cpp">
+      <Filter>Source Files\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="1850_최대공약수.cpp">
+      <Filter>Source Files\Siver</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
