@@ -58,5 +58,6 @@
     <ClCompile Include="2251_물통.cpp" />
     <ClCompile Include="1717_집합의 표현.cpp" />
     <ClCompile Include="1753_최단 경로 구하기.cpp" />
+    <ClCompile Include="1916_최소비용 구하기.cpp" />
   </ItemGroup>
 </Project>
