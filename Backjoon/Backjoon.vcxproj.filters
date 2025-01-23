@@ -60,5 +60,6 @@
     <ClCompile Include="1753_최단 경로 구하기.cpp" />
     <ClCompile Include="1916_최소비용 구하기.cpp" />
     <ClCompile Include="11657_타임머신.cpp" />
+    <ClCompile Include="1219_오민식의 고민.cpp" />
   </ItemGroup>
 </Project>

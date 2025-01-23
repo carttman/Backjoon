@@ -177,6 +177,7 @@
     <ClCompile Include="1181_단어 정렬.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="1219_오민식의 고민.cpp" />
     <ClCompile Include="1253_좋다.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
