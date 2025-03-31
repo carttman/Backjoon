@@ -9,19 +9,31 @@ int main()
 	cout.tie(NULL);
 	cin.tie(NULL);
 
-	int N;
-	cin >> N;
+	// 시와 분이 주어진다.
+	// 주어진 시간에서 45분을 뺀 값을 출력한다.
+	// 24시가 넘어가면 0시부터 시작한다.
+	// 불필요한 0은 사용하지 않는다.
 
-	set<int> A;
+	int h, m;
+	cin >> h >> m;
 
-	for (int i=0; i < N; i++)
-	{
-		int n;
-		cin >> n;
-		A.insert(n);
+	// 분이 45보다 작으면
+	if (m < 45)
+	{	// 시간 하나 소모하고 45를 미리 뺸다
+		h--;
+		// 남은 15분을 더한다.
+		m += 15;
+
+		// 만약 시간이 0 아래면 23시로 
+		if (h < 0)
+		{
+			h = 23;
+		}
+	}
+	else // 분이 45보다 크거나 같으면
+	{	// 그냥 45분 그대로 뺀다
+		m -= 45;
 	}
 
-	auto it = A.begin();
-	auto it2 = A.rbegin();
-	cout <<  *it << " " << *it2;
+	cout << h << " " << m << "\n";
 }
