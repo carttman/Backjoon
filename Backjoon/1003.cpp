@@ -1,41 +1,34 @@
 #include <iostream>
-
 using namespace std;
-
-static pair<int, int> tmp = {0, 0};
-
-int fibonacci(int n) {
-
-    if (n == 0) 
-    {
-        tmp.first++;
-       
-        return 0;
-    }
-    else if (n == 1) 
-    {
-        tmp.second++;
-      
-        return 1;
-    }
-    else 
-    {
-        return fibonacci(n-1) + fibonacci(n-2);
-    }
-}
 
 int main()
 {
-    int Tcase;
-    cin >> Tcase;
+    int arr[41] = {0, 1, 1};
 
-    for (int i = 0; i < Tcase; i++)
+	for (int i=3; i<41; i++)
     {
-        int n;
-        cin >> n;
+		arr[i] = arr[i-1] + arr[i-2];
+    }
 
-        fibonacci(n);
-        cout <<  tmp.first << " "  << tmp.second << "\n";
-        tmp = {0, 0};
+    int a;
+    cin >> a;
+
+    for (int i=0; i<a; i++)
+    {
+	    int num;
+        cin >> num;
+
+        if (num == 0)
+        {
+	        cout << "1 0\n";
+        }
+        else if (num == 1)
+        {
+	        cout << "0 1\n";
+        }
+        else
+        {
+	        cout << arr[num-1] << " " << arr[num] << '\n';
+        }
     }
 }
