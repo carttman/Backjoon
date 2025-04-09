@@ -1,12 +1,41 @@
 #include <iostream>
 
+using namespace std;
+
 int main()
 {
-	// S, M, L, XL, XXL, XXXL
-	// 같은 사이즈의 T장 묶음으로만 주문 가능
-	// 펜은 한 종류, P자루씩 묶음 주문, 한 자루씩 주문
+	int N;
+	int size[6];
+	int T, P;
 
-	// 티셔츠는 남아도 된다 / 펜은 남거나 부족하면 안된다.
+	// 참가자 수
+	cin >> N;
+
+	// 티셔츠 사이즈별 신청자 수
+	for (int i=0; i<6; i++)
+	{
+		cin >> size[i];
+	}
+
+	// 티셔츠, 펜 묶음 수
+	cin >> T >> P;
+
+	int min = 0;
+
+	for (int i=0; i< 6; i++)
+	{
+		//각 티셔츠별 신청자 수 % 참가자 수
+		if (size[i] % T == 0)
+		{
+			min += size[i] / T;
+		}
+		else
+		{
+			min += size[i] / T + 1;
+		}
+	}
 	
-
+	cout << min << "\n";
+	//P자루씩 최대 몇 묶음, 한 자루씩 몇개 주문
+	cout << N / P << " " << N % P;
 }
