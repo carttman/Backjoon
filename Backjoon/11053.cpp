@@ -20,7 +20,7 @@ int main()
 	for (int i=0; i<N; i++)
 	{
 		for (int j=0; j < i; j++)
-		{	// 현재 값이 다음 값보다 <
+		{	// 현재 값이 다음 값보다
 			if (A[j] < A[i])
 			{  
 				dp[i] = max(dp[i], dp[j] + 1);
