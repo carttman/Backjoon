@@ -116,5 +116,6 @@
     <ClCompile Include="11444.cpp" />
     <ClCompile Include="1259.cpp" />
     <ClCompile Include="1546.cpp" />
+    <ClCompile Include="11725_트리의 부모 찾기.cpp" />
   </ItemGroup>
 </Project>
