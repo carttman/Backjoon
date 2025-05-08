@@ -4,12 +4,10 @@
 using namespace std;
 
 vector<int> Parent(100001, 0);
-vector<bool> Visited(100001, false);
 vector<vector<int>> Tree(100001, vector<int>(0));
 
 void dfs(int Node)
 {	//방문 체크
-	Visited[Node] = true;
 
 	// 트리 순회
 	for (int i = 0; i < Tree[Node].size(); i++)
@@ -17,7 +15,7 @@ void dfs(int Node)
 		int next = Tree[Node][i];
 
 		// 다음 노드 방문 안했으면 
-		if (!Visited[next])
+		if (Parent[next] == 0)
 		{	// 부모노드 배열에 현재 노드 저장 
 			Parent[next] = Node;
 			dfs(next);
@@ -25,8 +23,13 @@ void dfs(int Node)
 	}
 }
 
+
 int main()
 {
+	ios::sync_with_stdio(false);
+	cin.tie(NULL);
+	cout.tie(NULL);
+
 	int N;
 	cin >> N;
 
