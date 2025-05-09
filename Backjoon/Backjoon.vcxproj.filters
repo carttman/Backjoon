@@ -118,5 +118,6 @@
     <ClCompile Include="1546.cpp" />
     <ClCompile Include="11725_트리의 부모 찾기.cpp" />
     <ClCompile Include="11779_최소비용 구하기 2.cpp" />
+    <ClCompile Include="15650_N과 M 2.cpp" />
   </ItemGroup>
 </Project>
