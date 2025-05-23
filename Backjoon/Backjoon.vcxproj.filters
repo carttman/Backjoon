@@ -122,5 +122,6 @@
     <ClCompile Include="15652_N과 M 4.cpp" />
     <ClCompile Include="15654_N과 M 5.cpp" />
     <ClCompile Include="15663_N과 M 9.cpp" />
+    <ClCompile Include="15666_N과 M 12.cpp" />
   </ItemGroup>
 </Project>

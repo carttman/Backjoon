@@ -9,7 +9,7 @@ vector<int> A;
 vector<int> Temp;
 vector<bool> Visited;
 
-void BackTracking(int start)
+void BackTracking()
 {
 	if (Temp.size() == M)
 	{
@@ -33,7 +33,7 @@ void BackTracking(int start)
 				Visited[i] = true;
 
 				Temp.push_back(A[i]);
-				BackTracking(start + 1);
+				BackTracking();
 				Temp.pop_back();
 
 				Visited[i] = false;
@@ -60,5 +60,5 @@ int main()
 
 	sort(A.begin(), A.end());
 
-	BackTracking(0);
+	BackTracking();
 }
