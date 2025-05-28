@@ -123,5 +123,8 @@
     <ClCompile Include="15654_N과 M 5.cpp" />
     <ClCompile Include="15663_N과 M 9.cpp" />
     <ClCompile Include="15666_N과 M 12.cpp" />
+    <ClCompile Include="1546_평균.cpp" />
+    <ClCompile Include="15829_Hashing.cpp" />
+    <ClCompile Include="2609_최대공약수와 최소공배수.cpp" />
   </ItemGroup>
 </Project>
