@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Backjoon\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3AA222AA-9F55-4409-996E-EC0C8BB7FF94}|Bronze\\Bronze.vcxproj|D:\\Backjoon\\Bronze\\28702_FizzBuzz.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3AA222AA-9F55-4409-996E-EC0C8BB7FF94}|Bronze\\Bronze.vcxproj|solutionrelative:Bronze\\28702_FizzBuzz.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3AA222AA-9F55-4409-996E-EC0C8BB7FF94}|Bronze\\Bronze.vcxproj|D:\\Backjoon\\Bronze\\14626_ISBN.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3AA222AA-9F55-4409-996E-EC0C8BB7FF94}|Bronze\\Bronze.vcxproj|solutionrelative:Bronze\\14626_ISBN.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -59,19 +63,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "28702_FizzBuzz.cpp",
+              "DocumentMoniker": "D:\\Backjoon\\Bronze\\28702_FizzBuzz.cpp",
+              "RelativeDocumentMoniker": "Bronze\\28702_FizzBuzz.cpp",
+              "ToolTip": "D:\\Backjoon\\Bronze\\28702_FizzBuzz.cpp",
+              "RelativeToolTip": "Bronze\\28702_FizzBuzz.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-20T11:19:12.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "14626_ISBN.cpp",
               "DocumentMoniker": "D:\\Backjoon\\Bronze\\14626_ISBN.cpp",
               "RelativeDocumentMoniker": "Bronze\\14626_ISBN.cpp",
               "ToolTip": "D:\\Backjoon\\Bronze\\14626_ISBN.cpp",
               "RelativeToolTip": "Bronze\\14626_ISBN.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-20T01:08:17.663Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "13172_\u03A3.cpp",
               "DocumentMoniker": "D:\\Backjoon\\Gold\\13172_\u03A3.cpp",
               "RelativeDocumentMoniker": "Gold\\13172_\u03A3.cpp",
@@ -79,12 +96,11 @@
               "RelativeToolTip": "Gold\\13172_\u03A3.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-20T00:28:58.079Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-20T00:28:58.079Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "12865_\uD3C9\uBC94\uD55C \uBC30\uB0AD.cpp",
               "DocumentMoniker": "D:\\Backjoon\\Gold\\12865_\uD3C9\uBC94\uD55C \uBC30\uB0AD.cpp",
               "RelativeDocumentMoniker": "Gold\\12865_\uD3C9\uBC94\uD55C \uBC30\uB0AD.cpp",
@@ -92,12 +108,11 @@
               "RelativeToolTip": "Gold\\12865_\uD3C9\uBC94\uD55C \uBC30\uB0AD.cpp",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-18T14:36:09.818Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-18T14:36:09.818Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "11050_\uC774\uD56D \uACC4\uC218 1.cpp",
               "DocumentMoniker": "D:\\Backjoon\\Bronze\\11050_\uC774\uD56D \uACC4\uC218 1.cpp",
               "RelativeDocumentMoniker": "Bronze\\11050_\uC774\uD56D \uACC4\uC218 1.cpp",
@@ -105,12 +120,11 @@
               "RelativeToolTip": "Bronze\\11050_\uC774\uD56D \uACC4\uC218 1.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-18T00:34:52.64Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-18T00:34:52.64Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "2869_\uB2EC\uD33D\uC774\uB294 \uC62C\uB77C\uAC00\uACE0 \uC2F6\uB2E4.cpp",
               "DocumentMoniker": "D:\\Backjoon\\Bronze\\2869_\uB2EC\uD33D\uC774\uB294 \uC62C\uB77C\uAC00\uACE0 \uC2F6\uB2E4.cpp",
               "RelativeDocumentMoniker": "Bronze\\2869_\uB2EC\uD33D\uC774\uB294 \uC62C\uB77C\uAC00\uACE0 \uC2F6\uB2E4.cpp",
@@ -122,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "12851_\uC228\uBC14\uAF2D\uC9C8 2.cpp",
               "DocumentMoniker": "D:\\Backjoon\\Gold\\12851_\uC228\uBC14\uAF2D\uC9C8 2.cpp",
               "RelativeDocumentMoniker": "Gold\\12851_\uC228\uBC14\uAF2D\uC9C8 2.cpp",
@@ -130,12 +144,11 @@
               "RelativeToolTip": "Gold\\12851_\uC228\uBC14\uAF2D\uC9C8 2.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-17T13:57:00.746Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T13:57:00.746Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "15829_Hashing.cpp",
               "DocumentMoniker": "D:\\Backjoon\\Backjoon\\15829_Hashing.cpp",
               "RelativeDocumentMoniker": "Backjoon\\15829_Hashing.cpp",
@@ -147,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "2775_\uBD80\uB140\uD68C\uC7A5\uC774 \uB420\uD14C\uC57C.cpp",
               "DocumentMoniker": "D:\\Backjoon\\Backjoon\\2775_\uBD80\uB140\uD68C\uC7A5\uC774 \uB420\uD14C\uC57C.cpp",
               "RelativeDocumentMoniker": "Backjoon\\2775_\uBD80\uB140\uD68C\uC7A5\uC774 \uB420\uD14C\uC57C.cpp",
@@ -159,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "2609_\uCD5C\uB300\uACF5\uC57D\uC218\uC640 \uCD5C\uC18C\uACF5\uBC30\uC218.cpp",
               "DocumentMoniker": "D:\\Backjoon\\Backjoon\\2609_\uCD5C\uB300\uACF5\uC57D\uC218\uC640 \uCD5C\uC18C\uACF5\uBC30\uC218.cpp",
               "RelativeDocumentMoniker": "Backjoon\\2609_\uCD5C\uB300\uACF5\uC57D\uC218\uC640 \uCD5C\uC18C\uACF5\uBC30\uC218.cpp",
@@ -171,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "1546_\uD3C9\uADE0.cpp",
               "DocumentMoniker": "D:\\Backjoon\\Backjoon\\1546_\uD3C9\uADE0.cpp",
               "RelativeDocumentMoniker": "Backjoon\\1546_\uD3C9\uADE0.cpp",
@@ -179,8 +192,7 @@
               "RelativeToolTip": "Backjoon\\1546_\uD3C9\uADE0.cpp",
               "ViewState": "AgIAAAsAAAAAAAAAAAAiwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-26T00:47:56.322Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T00:47:56.322Z"
             }
           ]
         }
