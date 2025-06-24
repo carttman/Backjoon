@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Backjoon\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DDC8CCC8-8641-43B6-AE91-B78BF450726D}|Silver\\Silver.vcxproj|D:\\Backjoon\\Backjoon\\1018_\uCCB4\uC2A4\uD310 \uB2E4\uC2DC \uCE60\uD558\uAE30.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DDC8CCC8-8641-43B6-AE91-B78BF450726D}|Silver\\Silver.vcxproj|solutionrelative:Backjoon\\1018_\uCCB4\uC2A4\uD310 \uB2E4\uC2DC \uCE60\uD558\uAE30.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3AA222AA-9F55-4409-996E-EC0C8BB7FF94}|Bronze\\Bronze.vcxproj|D:\\Backjoon\\Bronze\\28702_FizzBuzz.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3AA222AA-9F55-4409-996E-EC0C8BB7FF94}|Bronze\\Bronze.vcxproj|solutionrelative:Bronze\\28702_FizzBuzz.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -23,6 +27,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "1018_\uCCB4\uC2A4\uD310 \uB2E4\uC2DC \uCE60\uD558\uAE30.cpp",
+              "DocumentMoniker": "D:\\Backjoon\\Backjoon\\1018_\uCCB4\uC2A4\uD310 \uB2E4\uC2DC \uCE60\uD558\uAE30.cpp",
+              "RelativeDocumentMoniker": "Backjoon\\1018_\uCCB4\uC2A4\uD310 \uB2E4\uC2DC \uCE60\uD558\uAE30.cpp",
+              "ToolTip": "D:\\Backjoon\\Backjoon\\1018_\uCCB4\uC2A4\uD310 \uB2E4\uC2DC \uCE60\uD558\uAE30.cpp",
+              "RelativeToolTip": "Backjoon\\1018_\uCCB4\uC2A4\uD310 \uB2E4\uC2DC \uCE60\uD558\uAE30.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-24T14:04:56.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "28702_FizzBuzz.cpp",
               "DocumentMoniker": "D:\\Backjoon\\Bronze\\28702_FizzBuzz.cpp",
               "RelativeDocumentMoniker": "Bronze\\28702_FizzBuzz.cpp",
