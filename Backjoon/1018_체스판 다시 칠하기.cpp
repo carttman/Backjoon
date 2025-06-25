@@ -2,23 +2,91 @@
 
 using namespace std;
 
+string WB[8] = 
+{
+		"WBWBWBWB",
+		"BWBWBWBW",
+		"WBWBWBWB",
+		"BWBWBWBW",
+		"WBWBWBWB",
+		"BWBWBWBW",
+		"WBWBWBWB",
+		"BWBWBWBW"
+};
+
+string BW[8] = 
+{
+		"BWBWBWBW",
+		"WBWBWBWB",
+		"BWBWBWBW",
+		"WBWBWBWB",
+		"BWBWBWBW",
+		"WBWBWBWB",
+		"BWBWBWBW",
+		"WBWBWBWB"
+};
+
+string board[50];
+
+int WB_cnt(int x, int y)
+{
+    int cnt = 0;
+    for (int i = 0; i < 8; i++)
+    {
+        for (int j = 0; j < 8; j++)
+        {
+            if (board[x + i][y + j] != WB[i][j])
+                cnt++;
+        }
+
+    }
+    return cnt;
+}
+
+int BW_cnt(int x, int y)
+{
+    int cnt = 0;
+    for (int i = 0; i < 8; i++)
+    {
+        for (int j = 0; j < 8; j++)
+        {
+            if (board[x + i][y + j] != BW[i][j])
+                cnt++;
+        }
+
+    }
+    return cnt;
+}
+
 int main()
 {
+    int size[2];
+    int cnt;
+    int min_val = 12345;
 
-	int N, M;
+    pair<int, int> p1;
 
+    cin >> p1.first >> p1.second;
 
-	// M x N의 정사각형으로 나눠진 보드
-	// 이 보드를 8 x 8 크기로 만드려 한다.
-	// 체스판은 검, 흰이 번갈아서 칠해져야 한다.
-	// 변을 공유하는 두 사각형은 다른색으로 칠해져야 한다.
-	// 이 정의를 따르면 체스판의 경우의 수는 단 두 가지 이다.
-	
-	// 8 x 8 크기의 체스판으로 잘라낸 후에 몇 개의 정사각형을 다시 칠해야겠다고 생각했다.
-	// 자르는 정사각형은 아무데나 잘라도 된다.
-	// 이때 다시 칠해야 되는 정사각형의 최소 개수를 구하자
+    for (int i = 0; i < p1.first; i++)
+    {
+    	cin >> board[i];
+    }
 
+    for (int i = 0; i + 8 <= p1.first; i++)
+    {
+        for (int j = 0; j + 8 <= p1.second; j++)
+        {
+            int tmp;
+            tmp = min(WB_cnt(i, j), BW_cnt(i, j));
 
-	// 흑, 백으로 시작하는 체스판 정의
-	
+            if (tmp < min_val)
+            {
+                min_val = tmp;
+            }
+        }
+    }
+
+    cout << min_val;
+    return 0;
 }
