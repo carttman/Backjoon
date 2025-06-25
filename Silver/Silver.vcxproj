@@ -249,6 +249,7 @@
     </ClCompile>
     <ClCompile Include="2839_설탕 배달.cpp" />
     <ClCompile Include="4949_균형잡힌 세상.cpp" />
+    <ClCompile Include="9012_괄호.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
