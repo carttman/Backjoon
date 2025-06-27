@@ -96,5 +96,14 @@
     <ClCompile Include="2108_통계학.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2579_계단 오르기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="9095_123더하기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="9375_패션왕 신해빈.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
