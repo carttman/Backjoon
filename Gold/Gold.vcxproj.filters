@@ -57,5 +57,8 @@
     <ClCompile Include="16236_아기 상어.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="14938_서강그라운드.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

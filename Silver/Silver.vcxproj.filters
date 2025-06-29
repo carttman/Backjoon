@@ -105,5 +105,20 @@
     <ClCompile Include="9375_패션왕 신해빈.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="9461_파도반 수열.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="11726_2xn 타일링.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="11727_2xn 타일링 2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="17626_Four Squares.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2630_색종이 만들기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

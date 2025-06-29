@@ -3,7 +3,7 @@
 
 using namespace std;
 
-vector<vector<int>> A;
+vector<vector<int>> myMap;
 vector<bool> My_Visited;
 void DFS(int Vertex);
 
@@ -16,7 +16,7 @@ int main()
 	int N, M;
 	cin >> N >> M;
 
-	A.resize(N+1);
+	myMap.resize(N+1);
 
 	My_Visited = vector<bool>(N + 1, false);
 
@@ -25,8 +25,8 @@ int main()
 		int Start, End;
 
 		cin >> Start >> End;
-		A[Start].push_back(End); // 양방향 그래프이므로 한번에 양쪽 값 넣는다.
-		A[End].push_back(Start);
+		myMap[Start].push_back(End); // 양방향 그래프이므로 한번에 양쪽 값 넣는다.
+		myMap[End].push_back(Start);
 	}
 
 	int count = 0;
@@ -53,7 +53,7 @@ void DFS(int Vertex)
 
 	My_Visited[Vertex] = true; // 방문 체크
 
-	for(const int &i : A[Vertex]) // 
+	for(const int &i : myMap[Vertex]) // 
 	{
 		if(!My_Visited[i]) // 방문하지 않은 노드로 DFS 실행
 		{

@@ -1,43 +1,63 @@
 #include <iostream>
-#include <vector>
-
 using namespace std;
 
+int testcase, m, n, num, x, y;
+int board[51][51];
+bool visited[51][51];
 
-vector<vector<int>> A;
+int dx[] = { 1, 0, -1, 0 };
+int dy[] = { 0, 1, 0, -1 };
+
+void DFS(int y, int x)
+{
+    visited[y][x] = true;
+
+    for (int i = 0; i < 4; ++i)
+    {
+        int ny = y + dy[i];
+        int nx = x + dx[i];
+
+        if (ny < 0 || nx < 0 || ny >= n || nx >= m)
+			continue;
+
+        if (board[ny][nx] == 1 && visited[ny][nx] == false)
+            DFS(ny, nx);
+    }
+
+}
 
 int main()
 {
-	ios::sync_with_stdio(false);
-	cin.tie(NULL);
-	cout.tie(NULL);
+    cin >> testcase;
+    while (testcase--)
+    {
+        fill_n(board[0], 51 * 51, 0);
+        fill_n(visited[0], 51 * 51, 0);
 
-	// 지렁이는 해충을 먹는다.
-	// 지렁이는 다른 배추로 이동할 수 있다.
-	// 배추들이 모여있는 곳은 지렁이가 한 마리만 있어도 된다.
-	// 0은 땅, 1은 배추가 심어져 있는 땅
+        int cnt = 0;
+        cin >> m >> n >> num;
 
-	// 1. 테스트 케이스
-	// 2. 밭의 가로, 세로 길이, 배추 위치 개수
-	// 3. 배추의 위치 x, y
+        for (int i = 0; i < num; ++i)
+        {
+            cin >> x >> y;
 
-	int T;
-	cin >> T;
-	for (int i=0; i<T; i++)
-	{
-		int M, N, K;
-		cin >> M >> N >> K;
+            board[y][x] = 1;
+        }
 
-		A.resize(N, vector<int>(M, 0));
+        for (int i = 0; i < n; ++i)
+        {
+            for (int j = 0; j < m; ++j)
+            {
+                if (board[i][j] == 1 && visited[i][j] == false)
+                {
+                    DFS(i, j);
+                    cnt++;
+                }
+            }
+        }
+        cout << cnt << '\n';
 
-		for (int j=0; j<K; j++)
-		{
-			int x, y;
-			cin >> x >> y;
+    }
 
-			A[y][x] = 1;
-		}
-	}
-
-	cout << 9;
+    return 0;
 }

@@ -3,7 +3,7 @@
 
 using namespace std;
 
-vector<vector<int>> A; // 데이터 저장 인접 리스트
+vector<vector<int>> myMap; // 데이터 저장 인접 리스트
 vector<bool> My_Visited; // 방문 배열 
 bool Arrive; // 도착 확인
 
@@ -19,7 +19,7 @@ int main()
 	Arrive = false;
 	cin >> N >> M;
 
-	A.resize(N);
+	myMap.resize(N);
 	My_Visited = vector<bool>(N, false);
 
 	for(int i=0; i<M; i++)
@@ -27,8 +27,8 @@ int main()
 		int Start, End;
 		cin >> Start >> End;
 
-		A[Start].push_back(End); // 양방향 그래프이므로 양쪽 모두 저장
-		A[End].push_back(Start);
+		myMap[Start].push_back(End); // 양방향 그래프이므로 양쪽 모두 저장
+		myMap[End].push_back(Start);
 	}
 
 	for(int i=0; i<N; i++) // 모든 노드 DFS 실행
@@ -61,7 +61,7 @@ void DFS(int now, int depth)
 	}
 	My_Visited[now] = true; // 방문 체크
 
-	for(const int &i : A[now]) //방문 하지 않은 노드 찾아서 depth 올리고 DFS 실행한다.
+	for(const int &i : myMap[now]) //방문 하지 않은 노드 찾아서 depth 올리고 DFS 실행한다.
 	{
 		if(!My_Visited[i])
 		{

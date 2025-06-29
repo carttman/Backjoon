@@ -5,7 +5,7 @@
 
 using namespace std;
 
-vector<vector<int>> A;
+vector<vector<int>> myMap;
 vector<bool> My_Visited;
 bool Arrive;
 void DFS(int node);
@@ -19,20 +19,20 @@ int main()
 	int N, M, Start;
 	Arrive = false;
 	cin >> N >> M >> Start;
-	A.resize(N + 1);
+	myMap.resize(N + 1);
 
 	for(int i=0; i < M; i++)
 	{
 		int start, end;
 		cin >> start >> end;
 
-		A[start].push_back(end);
-		A[end].push_back(start);
+		myMap[start].push_back(end);
+		myMap[end].push_back(start);
 	}
 
 	for(int i=0; i<=N; i++) // 방문 노드가 여러 개일 때는 번호가 작은 것을 먼저 방문하기 위해 정렬한다.
 	{
-		sort(A[i].begin(), A[i].end());
+		sort(myMap[i].begin(), myMap[i].end());
 	}
 
 	My_Visited = vector<bool>(N + 1, false);
@@ -49,7 +49,7 @@ void DFS(int node)
 	cout << node << " ";
 	My_Visited[node] = true;
 
-	for(const int &i : A[node])
+	for(const int &i : myMap[node])
 	{
 		if(!My_Visited[i])
 		{
@@ -69,7 +69,7 @@ void BFS(int node)
 		int now_node = myQueue.front();
 		myQueue.pop();
 		cout<<now_node<<"\n";
-		for(const int &i : A[now_node])
+		for(const int &i : myMap[now_node])
 		{
 			if(!My_Visited[i])
 			{

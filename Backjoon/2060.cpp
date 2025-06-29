@@ -6,7 +6,7 @@ using namespace std;
 int N;
 int M;
 int cnt;
-vector<vector<int>> A;
+vector<vector<int>> myMap;
 vector<bool> Visited;
 
 void DFS(int start);
@@ -20,7 +20,7 @@ int main()
 	cin >> N;
 	cin >> M;
 
-	A.resize(N+1);
+	myMap.resize(N+1);
 	Visited.resize(N+1, false);
 
 	for (int i=1; i<=M; i++)
@@ -28,8 +28,8 @@ int main()
 		int a, b;
 		cin >> a >> b;
 
-		A[a].push_back(b);
-		A[b].push_back(a);
+		myMap[a].push_back(b);
+		myMap[b].push_back(a);
 	}
 
 	DFS(1);
@@ -41,9 +41,9 @@ void DFS(int start)
 	//시작 노드 방문체크
 	Visited[start] = true;
 
-	for (int i=0; i < A[start].size(); i++)
+	for (int i=0; i < myMap[start].size(); i++)
 	{
-		int next = A[start][i];
+		int next = myMap[start][i];
 		//다음노드 방문하지 않았다면 DFS 시작 
 		if (!Visited[next])
 		{
