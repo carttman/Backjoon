@@ -1,4 +1,6 @@
 #include <iostream>
+#include <queue>
+#include <string>
 
 using namespace std;
 
@@ -16,33 +18,72 @@ int main()
 
 	int cnt = 1;
 
-	while (b > a)
+	queue<int> q;
+
+	q.push(a);
+
+	while (!q.empty())
 	{
-		if (b % 10 == 1) // 마지막 자리가 1이라면
+
+		int temp = q.front();
+		q.pop();
+
+		if (b == temp)
 		{
-			b /= 10;	// 마지막 자리 제거
+			cout << cnt;
+			return 0;
 		}
-		else if (b % 2 == 0)	// 짝수라면
-		{
-			b /= 2;		//절반으로 나눈다
-		}
-		else
+
+		if (temp > b)
 		{
 			cout << -1;
 			return 0;
 		}
 
 		cnt++;
+
+		if (temp * 2 < b)
+		{
+			q.push(temp * 2);
+		}
+		
+		string sTemp = to_string(temp);
+		sTemp.push_back('1');
+		int iTemp = stoi(sTemp);
+
+		if (iTemp < b)
+		{
+			q.push(iTemp);
+		}
 	}
 
-	if (a == b)
-	{
-		cout << cnt;
-	}
-	else
-	{
-		cout << -1;
-	}
+	//while (b > a)
+	//{
+	//	if (b % 10 == 1) // 마지막 자리가 1이라면
+	//	{
+	//		b /= 10;	// 마지막 자리 제거
+	//	}
+	//	else if (b % 2 == 0)	// 짝수라면
+	//	{
+	//		b /= 2;		//절반으로 나눈다
+	//	}
+	//	else
+	//	{
+	//		cout << -1;
+	//		return 0;
+	//	}
+
+	//	cnt++;
+	//}
+
+	//if (a == b)
+	//{
+	//	cout << cnt;
+	//}
+	//else
+	//{
+	//	cout << -1;
+	//}
 
 	return 0;
 }
