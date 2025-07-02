@@ -8,21 +8,21 @@ vector<vector<int>> myMap;
 int result = 0;
 
 void dfs(int row, int col, int direction)
-{
+{	//목적지 도달
 	if (row == n - 1 && col == n - 1)
 	{
 		result++;
 		return;
 	}
-
+	//가로 이동
 	if (direction == 0 || direction == 2)
-	{
+	{	
 		if (col + 1 < n && myMap[row][col + 1] == 0)
 		{
 			dfs(row, col + 1, 0);
 		}
 	}
-
+	// 세로 이동
 	if (direction == 1 || direction == 2)
 	{
 		if (row + 1 < n && myMap[row + 1][col] == 0)
@@ -30,7 +30,7 @@ void dfs(int row, int col, int direction)
 			dfs(row + 1, col, 1);
 		}
 	}
-
+	// 대각선 이동
 	if (row + 1 < n && col + 1 < n)
 	{
 		if(myMap[row + 1][col] == 0 && myMap[row][col+1] == 0)
