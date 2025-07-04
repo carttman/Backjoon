@@ -5,8 +5,10 @@ using namespace std;
 
 vector<pair<int, int>> Directions = {{1, 0}, {-1, 0} , {0, -1} , {0, 1}};
 vector<pair<int, int>> meongis;
+
 int cleanerTop = -10;
 int cleanerBottom = -10;
+
 int main()
 {
 	int r, c, t;
@@ -40,11 +42,11 @@ int main()
 		}
 	}
 
-	vector<vector<int>> tempMap;
-	tempMap = myMap;
-
 	while (t--)
 	{
+		vector<vector<int>> tempMap;
+		tempMap = myMap;
+
 		for (int i=0; i < meongis.size(); i++)
 		{
 			int cRow = meongis[i].first;
@@ -106,39 +108,40 @@ int main()
 		{
 			myMap[cleanerBottom][i] = cycleTempMap[cleanerBottom][i - 1];
 		}
-
 		//2
 		for (int i=cleanerBottom; i<r-1; i++)
 		{
 			myMap[i+1][c-1] = cycleTempMap[i][c-1];
 		}
-
-
 		//3
 		for (int i=c-1; i>0; i--)
 		{
 			myMap[r-1][i-1] = cycleTempMap[r-1][i];
 		}
 		//4
-		for (int i = r-1; i<cleanerBottom; i--)
+		for (int i = r-1; i>cleanerBottom; i--)
 		{
-			myMap[i - 1][c - 1] = cycleTempMap[i][c - 1];
+			myMap[i - 1][0] = cycleTempMap[i][0];
 
-			/*if (i - 1 == cleanerBottom)
+			if (i - 1 == cleanerBottom)
 			{
 				myMap[cleanerBottom][0] = -1;
-			}*/
+			}
 		}
 
-		cout << "\n";
+		meongis.clear();
 
 		for (int i = 0; i < r; i++)
 		{
 			for (int j = 0; j < c; j++)
 			{
-				cout << myMap[i][j] << " ";
+				if (myMap[i][j] > 0)
+				{
+					meongis.push_back({i, j});
+				}
+				
 			}
-			cout << "\n";
+			
 		}
 	}
 
