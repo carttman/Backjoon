@@ -1,63 +1,79 @@
 #include <iostream>
+#include <queue>
+#include <vector>
+
 using namespace std;
 
-int testcase, m, n, num, x, y;
-int board[51][51];
-bool visited[51][51];
+typedef pair<int, int> Node;
 
-int dx[] = { 1, 0, -1, 0 };
-int dy[] = { 0, 1, 0, -1 };
-
-void DFS(int y, int x)
-{
-    visited[y][x] = true;
-
-    for (int i = 0; i < 4; ++i)
-    {
-        int ny = y + dy[i];
-        int nx = x + dx[i];
-
-        if (ny < 0 || nx < 0 || ny >= n || nx >= m)
-			continue;
-
-        if (board[ny][nx] == 1 && visited[ny][nx] == false)
-            DFS(ny, nx);
-    }
-
-}
+Node directions[4] = {{1, 0}, {-1, 0}, {0, -1}, {0, 1}};
 
 int main()
 {
-    cin >> testcase;
-    while (testcase--)
-    {
-        fill_n(board[0], 51 * 51, 0);
-        fill_n(visited[0], 51 * 51, 0);
+	int t;
+	cin >> t;
 
-        int cnt = 0;
-        cin >> m >> n >> num;
+	int m, n, k;
 
-        for (int i = 0; i < num; ++i)
-        {
-            cin >> x >> y;
+	while (t--)
+	{
+		cin >> m >> n >> k;
+		vector<vector<int>> myMap(n, vector<int>(m, 0));
+		vector<vector<bool>> visited(n, vector<bool>(m, false));
+		vector<Node> cabbages;
+		queue<Node> q;
 
-            board[y][x] = 1;
-        }
+		for (int i=0; i<k; i++)
+		{
+			int r, c;
+			cin >> c >> r;
 
-        for (int i = 0; i < n; ++i)
-        {
-            for (int j = 0; j < m; ++j)
-            {
-                if (board[i][j] == 1 && visited[i][j] == false)
-                {
-                    DFS(i, j);
-                    cnt++;
-                }
-            }
-        }
-        cout << cnt << '\n';
+			myMap[r][c] = 1;
+			cabbages.push_back({r, c});
+		}
 
-    }
+		int cnt = 0;
 
-    return 0;
+		for (int i=0; i<cabbages.size(); i++)
+		{
+			int cabbageRow = cabbages[i].first;
+			int cabbageColumn = cabbages[i].second;
+
+			if (!visited[cabbageRow][cabbageColumn])
+			{
+				q.push({ cabbageRow, cabbageColumn});
+
+				while (!q.empty())
+				{
+					Node temp = q.front();
+
+					visited[temp.first][temp.second] = true;
+
+					q.pop();
+
+					for (int i = 0; i < 4; i++)
+					{
+						int nRow = temp.first + directions[i].first;
+						int nColumn = temp.second + directions[i].second;
+
+						if (nRow >= 0 && nRow < n && nColumn >= 0 && nColumn < m)
+						{
+							if (myMap[nRow][nColumn] == 1)
+							{
+								if (!visited[nRow][nColumn])
+								{
+									visited[nRow][nColumn] = true;
+									q.push({ nRow, nColumn });
+								}
+							}
+						}
+					}
+				}
+
+				cnt++;
+			}
+		}
+
+		cout << cnt << "\n";
+	}
 }
