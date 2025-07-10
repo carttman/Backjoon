@@ -48,7 +48,6 @@
     <ClCompile Include="1717_집합의 표현.cpp" />
     <ClCompile Include="1753_최단 경로 구하기.cpp" />
     <ClCompile Include="1916_최소비용 구하기.cpp" />
-    <ClCompile Include="1389_케빈 베이컨의 6단계 법칙.cpp" />
     <ClCompile Include="4153.cpp" />
     <ClCompile Include="10814.cpp" />
     <ClCompile Include="1436.cpp" />

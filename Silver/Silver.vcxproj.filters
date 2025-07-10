@@ -144,5 +144,11 @@
     <ClCompile Include="30804_과일 탕후루.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="..\Backjoon\1389_케빈 베이컨의 6단계 법칙.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2667_단지번호붙이기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

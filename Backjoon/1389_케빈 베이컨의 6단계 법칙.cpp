@@ -1,72 +1,73 @@
 #include <iostream>
+#include <queue>
+#include <vector>
 #include <limits.h>
 
 using namespace std;
 
-int N, M;
-long mdistance[101][101];
+int bfs(int start, vector<vector<int>>& graph, int users)
+{
+	vector<int> distance(users + 1, INT_MAX); // 현재 노드 ~ 연결 노드의 거리
+	queue<int> q;
+	distance[start] = 0; // 자기 자신과의 거리
+
+	q.push(start);
+
+	while (!q.empty())
+	{
+		int current = q.front();
+
+		q.pop();
+
+		for (int i : graph[current]) // 연결된 노드 전부 순회
+		{
+			if (distance[i] == INT_MAX) // 방문 안했다면
+			{
+				distance[i] = distance[current] + 1;
+				q.push(i);
+			}
+		}
+	}
+
+	int total_distance = 0;
+	for (int i=1; i<=users; i++)
+	{
+		total_distance += distance[i];
+	}
+
+	return total_distance;
+}
 
 int main()
 {
-	ios::sync_with_stdio(false);
-	cin.tie(NULL);
-	cout.tie(NULL);
+	int users, m;
 
-	cin >> N >> M;
+	cin >> users >> m;
 
-	for(int i=1; i<= N; i++)
-	{
-		for(int j=1; j<= N; j++)
-		{
-			if(i==j)
-			{
-				mdistance[i][j] = 0;
-			}
-			else
-			{
-				mdistance[j][i] = 10000001;
-			}
-		}
-	}
+	vector<vector<int>> graph(users+1);
 
-	for(int i=0; i< M; i++)
+	for (int i=0; i<m; i++)
 	{
 		int s, e;
 		cin >> s >> e;
-		mdistance[s][e] = 1;
-		mdistance[e][s] = 1;
+
+		graph[s].push_back(e);
+		graph[e].push_back(s);
 	}
 
-	for(int k=1; k <=N; k++)
+	int minBacon = INT_MAX;
+	int person = 0;
+
+	for (int i=1; i<=users; i++)
 	{
-		for(int i=1; i<= N; i++)
+		int total_distance = bfs(i, graph, users);
+		if (total_distance < minBacon)
 		{
-			for(int j=1; j<=N; j++)
-			{
-				if(mdistance[i][j] > mdistance[i][k] + mdistance[k][j])
-				{
-					mdistance[i][j] = mdistance[i][k] + mdistance[k][j];
-				}
-			}
+			minBacon = total_distance;
+			person = i;
 		}
 	}
 
-	int Min = INT_MAX;
-	int Answer = -1;
-
-	for(int i=1; i<= N; i++)
-	{
-		int temp = 0;
-		for(int j=1; j<=N; j++)
-		{
-			temp = temp + mdistance[i][j];
-		}
-		if(Min > temp)
-		{
-			Min = temp;
-			Answer = i;
-		}
-	}
-
-	cout << Answer;
+	cout << person << "\n";
+	return 0;
 }
