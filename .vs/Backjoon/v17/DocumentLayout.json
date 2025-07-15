@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "D:\\Backjoon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DDC8CCC8-8641-43B6-AE91-B78BF450726D}|Silver\\Silver.vcxproj|D:\\Backjoon\\Backjoon\\1389_\uCF00\uBE48 \uBCA0\uC774\uCEE8\uC758 6\uB2E8\uACC4 \uBC95\uCE59.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DDC8CCC8-8641-43B6-AE91-B78BF450726D}|Silver\\Silver.vcxproj|solutionrelative:Backjoon\\1389_\uCF00\uBE48 \uBCA0\uC774\uCEE8\uC758 6\uB2E8\uACC4 \uBC95\uCE59.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDC8CCC8-8641-43B6-AE91-B78BF450726D}|Silver\\Silver.vcxproj|D:\\Backjoon\\Silver\\2667_\uB2E8\uC9C0\uBC88\uD638\uBD99\uC774\uAE30.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DDC8CCC8-8641-43B6-AE91-B78BF450726D}|Silver\\Silver.vcxproj|solutionrelative:Silver\\2667_\uB2E8\uC9C0\uBC88\uD638\uBD99\uC774\uAE30.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{DDC8CCC8-8641-43B6-AE91-B78BF450726D}|Silver\\Silver.vcxproj|D:\\Backjoon\\Backjoon\\1541_\uC783\uC5B4\uBC84\uB9B0 \uAD04\uD638.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DDC8CCC8-8641-43B6-AE91-B78BF450726D}|Silver\\Silver.vcxproj|solutionrelative:Backjoon\\1541_\uC783\uC5B4\uBC84\uB9B0 \uAD04\uD638.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,28 +22,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "2667_\uB2E8\uC9C0\uBC88\uD638\uBD99\uC774\uAE30.cpp",
-              "DocumentMoniker": "D:\\Backjoon\\Silver\\2667_\uB2E8\uC9C0\uBC88\uD638\uBD99\uC774\uAE30.cpp",
-              "RelativeDocumentMoniker": "Silver\\2667_\uB2E8\uC9C0\uBC88\uD638\uBD99\uC774\uAE30.cpp",
-              "ToolTip": "D:\\Backjoon\\Silver\\2667_\uB2E8\uC9C0\uBC88\uD638\uBD99\uC774\uAE30.cpp",
-              "RelativeToolTip": "Silver\\2667_\uB2E8\uC9C0\uBC88\uD638\uBD99\uC774\uAE30.cpp",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-07-10T05:25:29.963Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "1389_\uCF00\uBE48 \uBCA0\uC774\uCEE8\uC758 6\uB2E8\uACC4 \uBC95\uCE59.cpp",
-              "DocumentMoniker": "D:\\Backjoon\\Backjoon\\1389_\uCF00\uBE48 \uBCA0\uC774\uCEE8\uC758 6\uB2E8\uACC4 \uBC95\uCE59.cpp",
-              "RelativeDocumentMoniker": "Backjoon\\1389_\uCF00\uBE48 \uBCA0\uC774\uCEE8\uC758 6\uB2E8\uACC4 \uBC95\uCE59.cpp",
-              "ToolTip": "D:\\Backjoon\\Backjoon\\1389_\uCF00\uBE48 \uBCA0\uC774\uCEE8\uC758 6\uB2E8\uACC4 \uBC95\uCE59.cpp",
-              "RelativeToolTip": "Backjoon\\1389_\uCF00\uBE48 \uBCA0\uC774\uCEE8\uC758 6\uB2E8\uACC4 \uBC95\uCE59.cpp",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
+              "Title": "1541_\uC783\uC5B4\uBC84\uB9B0 \uAD04\uD638.cpp",
+              "DocumentMoniker": "D:\\Backjoon\\Backjoon\\1541_\uC783\uC5B4\uBC84\uB9B0 \uAD04\uD638.cpp",
+              "RelativeDocumentMoniker": "Backjoon\\1541_\uC783\uC5B4\uBC84\uB9B0 \uAD04\uD638.cpp",
+              "ToolTip": "D:\\Backjoon\\Backjoon\\1541_\uC783\uC5B4\uBC84\uB9B0 \uAD04\uD638.cpp",
+              "RelativeToolTip": "Backjoon\\1541_\uC783\uC5B4\uBC84\uB9B0 \uAD04\uD638.cpp",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAA0AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-07-10T04:17:52.722Z",
+              "WhenOpened": "2025-07-15T04:02:29.143Z",
               "EditorCaption": ""
             }
           ]

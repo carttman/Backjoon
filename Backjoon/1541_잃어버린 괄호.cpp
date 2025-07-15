@@ -1,63 +1,59 @@
 #include <iostream>
 #include <sstream>
 #include <vector>
-
 using namespace std;
 
-vector<string> Split(string input, char delimiter);
-int mySum(string a);
-
-int main()
+vector<string> split(string str, char Delimiter)
 {
-	ios::sync_with_stdio(false);
-	cin.tie(NULL);
-	cout.tie(NULL);
+	istringstream iss(str);
+	string buffer;
 
-	int answer = 0;
-	string example;
-	cin >> example;
-
-	vector<string> str = Split(example, '-');
-
-	for (int i=0; i<str.size(); i++)
-	{
-		int temp = mySum(str[i]);
-
-		if (i == 0)
-		{
-			answer = answer + temp;
-		}
-		else
-		{
-			answer = answer - temp;
-		}
-	}
-
-	cout << answer << "\n";
-}
-
-vector<string> Split(string input, char delimiter) // 문자열을 특정 구분자로 잘라 벡터에 저장
-{
 	vector<string> result;
-	stringstream mystream(input);
-	string splitData;
 
-	while (getline(mystream, splitData, delimiter))
+	while (getline(iss, buffer, Delimiter))
 	{
-		result.push_back(splitData);
+		result.push_back(buffer);
 	}
+
 	return result;
 }
 
-int mySum(string a) // 나뉜 그룹의 더하기 연산 수행
+int main()
 {
-	int sum = 0;
-	vector<string> temp = Split(a, '+');
+	string s;
+	cin >> s;
 
-	for (int i=0; i<temp.size(); i++)
+	vector<string> numberStrings;
+	numberStrings = split(s, '-');
+
+	vector<string> first;
+	first = split(numberStrings[0], '+');
+
+	int sum1 = 0;
+
+	for (string tmp : first)
 	{
-		sum += stoi(temp[i]);
+		int n = stoi(tmp);
+		sum1 += n;
 	}
-	return sum;
-}
 
+	int sum2 = 0;
+
+	if (numberStrings.size() > 1)
+	{
+		for (int i=1; i	< numberStrings.size(); i++)
+		{
+			vector<string> second;
+
+			second = split(numberStrings[i], '+');
+
+			for (string tmp : second)
+			{
+				int n = stoi(tmp);
+				sum2 += n;
+			}
+		}
+	}
+
+	cout << sum1 - sum2;
+}
