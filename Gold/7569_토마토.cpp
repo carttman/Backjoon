@@ -47,8 +47,6 @@ int main()
 	// {h, r, c}
 	vector<Node> Dir = {{ -1, 0, 0}, {1, 0, 0},{0, -1, 0},{0, 1, 0},{0, 0, -1},{0, 0, 1}};
 
-	bool visited[101][101][101] = {};
-
 	while (!q.empty())
 	{
 		Node curr = q.front();
@@ -67,16 +65,13 @@ int main()
 
 			if (nextH >= 0 && nextH < h && nextR >= 0 && nextR < n && nextC >= 0 && nextC < m)
 			{
-				if (!visited[nextH][nextR][nextC])
+				if (!mymap[nextH][nextR][nextC])
 				{
-					if (mymap[nextH][nextR][nextC] == 0)
-					{
-						mymap[nextH][nextR][nextC] = mymap[currH][currR][currC] + 1;
+					
+					mymap[nextH][nextR][nextC] = mymap[currH][currR][currC] + 1;
 
-						visited[nextH][nextR][nextC] = true;
-
-						q.push({nextH, nextR, nextC});
-					}
+					q.push({nextH, nextR, nextC});
+					
 				}
 			}
 		}
@@ -90,18 +85,14 @@ int main()
 		{
 			for (int k = 0; k < m; k++)
 			{
-				if (visited[i][j][k])
+				if (mymap[i][j][k])
 				{
 					cnt = max(cnt, mymap[i][j][k]);
 				}
-
-				if (mymap[i][j][k] == 0)
+				else
 				{
-					if (!visited[i][j][k])
-					{
-						cout << -1;
-						return 0;
-					}
+					cout << -1;
+					return 0;
 				}
 			}
 		}
