@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\Backjoon\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DDC8CCC8-8641-43B6-AE91-B78BF450726D}|Silver\\Silver.vcxproj|D:\\Backjoon\\Silver\\14940_\uC26C\uC6B4 \uCD5C\uB2E8\uAC70\uB9AC.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DDC8CCC8-8641-43B6-AE91-B78BF450726D}|Silver\\Silver.vcxproj|solutionrelative:Silver\\14940_\uC26C\uC6B4 \uCD5C\uB2E8\uAC70\uB9AC.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDC8CCC8-8641-43B6-AE91-B78BF450726D}|Silver\\Silver.vcxproj|D:\\Backjoon\\Backjoon\\1620_\uB098\uB294\uC57C \uD3EC\uCF13\uBAAC \uB9C8\uC2A4\uD130 \uC774\uB2E4\uC19C.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DDC8CCC8-8641-43B6-AE91-B78BF450726D}|Silver\\Silver.vcxproj|solutionrelative:Backjoon\\1620_\uB098\uB294\uC57C \uD3EC\uCF13\uBAAC \uB9C8\uC2A4\uD130 \uC774\uB2E4\uC19C.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DDC8CCC8-8641-43B6-AE91-B78BF450726D}|Silver\\Silver.vcxproj|D:\\Backjoon\\Backjoon\\1541_\uC783\uC5B4\uBC84\uB9B0 \uAD04\uD638.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{DDC8CCC8-8641-43B6-AE91-B78BF450726D}|Silver\\Silver.vcxproj|solutionrelative:Backjoon\\1541_\uC783\uC5B4\uBC84\uB9B0 \uAD04\uD638.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -23,12 +31,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "14940_\uC26C\uC6B4 \uCD5C\uB2E8\uAC70\uB9AC.cpp",
+              "DocumentMoniker": "D:\\Backjoon\\Silver\\14940_\uC26C\uC6B4 \uCD5C\uB2E8\uAC70\uB9AC.cpp",
+              "RelativeDocumentMoniker": "Silver\\14940_\uC26C\uC6B4 \uCD5C\uB2E8\uAC70\uB9AC.cpp",
+              "ToolTip": "D:\\Backjoon\\Silver\\14940_\uC26C\uC6B4 \uCD5C\uB2E8\uAC70\uB9AC.cpp",
+              "RelativeToolTip": "Silver\\14940_\uC26C\uC6B4 \uCD5C\uB2E8\uAC70\uB9AC.cpp",
+              "ViewState": "AgIAADgAAAAAAAAAAAAkwEIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-16T01:12:47.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "1620_\uB098\uB294\uC57C \uD3EC\uCF13\uBAAC \uB9C8\uC2A4\uD130 \uC774\uB2E4\uC19C.cpp",
+              "DocumentMoniker": "D:\\Backjoon\\Backjoon\\1620_\uB098\uB294\uC57C \uD3EC\uCF13\uBAAC \uB9C8\uC2A4\uD130 \uC774\uB2E4\uC19C.cpp",
+              "RelativeDocumentMoniker": "Backjoon\\1620_\uB098\uB294\uC57C \uD3EC\uCF13\uBAAC \uB9C8\uC2A4\uD130 \uC774\uB2E4\uC19C.cpp",
+              "ToolTip": "D:\\Backjoon\\Backjoon\\1620_\uB098\uB294\uC57C \uD3EC\uCF13\uBAAC \uB9C8\uC2A4\uD130 \uC774\uB2E4\uC19C.cpp",
+              "RelativeToolTip": "Backjoon\\1620_\uB098\uB294\uC57C \uD3EC\uCF13\uBAAC \uB9C8\uC2A4\uD130 \uC774\uB2E4\uC19C.cpp",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-16T01:08:16.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "1541_\uC783\uC5B4\uBC84\uB9B0 \uAD04\uD638.cpp",
               "DocumentMoniker": "D:\\Backjoon\\Backjoon\\1541_\uC783\uC5B4\uBC84\uB9B0 \uAD04\uD638.cpp",
               "RelativeDocumentMoniker": "Backjoon\\1541_\uC783\uC5B4\uBC84\uB9B0 \uAD04\uD638.cpp",
               "ToolTip": "D:\\Backjoon\\Backjoon\\1541_\uC783\uC5B4\uBC84\uB9B0 \uAD04\uD638.cpp",
               "RelativeToolTip": "Backjoon\\1541_\uC783\uC5B4\uBC84\uB9B0 \uAD04\uD638.cpp",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAA0AAAACAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAC8AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-07-15T04:02:29.143Z",
               "EditorCaption": ""
