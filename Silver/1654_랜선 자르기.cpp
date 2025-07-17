@@ -1,52 +1,85 @@
 #include <iostream>
 #include <vector>
-#include <algorithm>
-
 using namespace std;
 
 int main()
 {
+	ios::sync_with_stdio(false);
+	cin.tie(NULL);
+	cout.tie(NULL);
+
 	int k, n;
 
 	cin >> k >> n;
 
-	vector<int> cables(k);
+	vector<long long> a(k);
 
-	int max = 0;
-
+	long long maxLan = 0;
 	for (int i=0; i<k; i++)
 	{
-		cin >> cables[i];
+		cin >> a[i];
+		maxLan = max(maxLan, a[i]);
 	}
 
-	max = *max_element(cables.begin(), cables.end());
-
+	int target = n;
 	long long left = 1;
-	long long right = max;
-	long long mid = (left + right) / 2;
+	long long right = maxLan;
+	long long answer = 0;
 
-	while (left <= right)
+	int loopcnt = 0;
+	while(1)
+	//while(left <= right)
 	{
-		int count = 0;
+		loopcnt++;
+		// 중간 길이 구한다
+		long long middle = (left + right) / 2;
 
-		for (int i=0; i<k; i++)
+		long long sum = 0;
+		// 중간 길이 기준으로 개수 센다
+		for (int i=0; i<a.size(); i++)
 		{
-			count += cables[i] / mid;
+			sum += a[i] / middle;
 		}
 
-		if (count >= n)
+		// 합이 타겟보다 작으면
+		if (sum < target)
 		{
-			left = mid + 1;
+			right = middle - 1;
 		}
-		else
+		else if (sum > target)
 		{
-			right = mid - 1;
+			left = middle + 1;
+		}
+		if (sum == target)
+		{
+			if (answer == middle)
+			{
+				cout << answer;
+				break;
+			}
+			answer = middle;
 		}
 
-		mid = (left + right) / 2;
+		//middle = (left + right) / 2;
 	}
-
-	cout << mid << "\n";
+	//cout << middle << "loop : " << loopcnt <<"\n";
 
 	return 0;
 }
+	//=== 시간초과 난 코드
+	//int maxLan = 0;
+	//
+	//for (int i=1; i<= maxLann; i++)
+	//{
+	//	int sum = 0;
+	//	for (int j=0; j<k; j++)
+	//	{
+	//		sum += a[j]/i;
+	//	}
+
+	//	if (sum == n)
+	//	{
+	//		maxLan = i;
+	//	}
+
+	//}
