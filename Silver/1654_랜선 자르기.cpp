@@ -21,19 +21,15 @@ int main()
 		maxLan = max(maxLan, a[i]);
 	}
 
-	int target = n;
+	long long ans = -1;
 	long long left = 1;
 	long long right = maxLan;
-	long long answer = 0;
 
-	int loopcnt = 0;
-	while(1)
-	//while(left <= right)
+	while(left <= right)
 	{
-		loopcnt++;
-		// 중간 길이 구한다
 		long long middle = (left + right) / 2;
 
+		// 중간 길이 구한다
 		long long sum = 0;
 		// 중간 길이 기준으로 개수 센다
 		for (int i=0; i<a.size(); i++)
@@ -42,28 +38,19 @@ int main()
 		}
 
 		// 합이 타겟보다 작으면
-		if (sum < target)
+		if (sum < n)
 		{
 			right = middle - 1;
 		}
-		else if (sum > target)
+		else
 		{
 			left = middle + 1;
-		}
-		if (sum == target)
-		{
-			if (answer == middle)
-			{
-				cout << answer;
-				break;
-			}
-			answer = middle;
+
+			ans = max(ans, middle);
 		}
 
-		//middle = (left + right) / 2;
 	}
-	//cout << middle << "loop : " << loopcnt <<"\n";
-
+	cout << ans;
 	return 0;
 }
 	//=== 시간초과 난 코드
