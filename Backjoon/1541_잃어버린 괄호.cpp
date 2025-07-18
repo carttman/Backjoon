@@ -3,7 +3,7 @@
 #include <vector>
 using namespace std;
 
-vector<string> split(string str, char Delimiter)
+vector<string> splitComma(string str, char Delimiter)
 {
 	istringstream iss(str);
 	string buffer;
@@ -24,10 +24,10 @@ int main()
 	cin >> s;
 
 	vector<string> numberStrings;
-	numberStrings = split(s, '-');
+	numberStrings = splitComma(s, '-');
 
 	vector<string> first;
-	first = split(numberStrings[0], '+');
+	first = splitComma(numberStrings[0], '+');
 
 	int sum1 = 0;
 
@@ -45,7 +45,7 @@ int main()
 		{
 			vector<string> second;
 
-			second = split(numberStrings[i], '+');
+			second = splitComma(numberStrings[i], '+');
 
 			for (string tmp : second)
 			{
