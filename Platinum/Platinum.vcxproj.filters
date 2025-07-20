@@ -18,5 +18,11 @@
     <ClCompile Include="..\Backjoon\1219_오민식의 고민.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="..\Backjoon\1517_버블 소트.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Backjoon\11003_최솟값 찾기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
