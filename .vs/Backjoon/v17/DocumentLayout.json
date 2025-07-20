@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Backjoon\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3AA222AA-9F55-4409-996E-EC0C8BB7FF94}|Bronze\\Bronze.vcxproj|D:\\Backjoon\\Backjoon\\25083_\uC0C8\uC2F9.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3AA222AA-9F55-4409-996E-EC0C8BB7FF94}|Bronze\\Bronze.vcxproj|solutionrelative:Backjoon\\25083_\uC0C8\uC2F9.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{ebe3f1d5-feac-4131-bf03-0e85ffb89a89}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "25083_\uC0C8\uC2F9.cpp",
+              "DocumentMoniker": "D:\\Backjoon\\Backjoon\\25083_\uC0C8\uC2F9.cpp",
+              "RelativeDocumentMoniker": "Backjoon\\25083_\uC0C8\uC2F9.cpp",
+              "ToolTip": "D:\\Backjoon\\Backjoon\\25083_\uC0C8\uC2F9.cpp",
+              "RelativeToolTip": "Backjoon\\25083_\uC0C8\uC2F9.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-20T13:38:58.186Z",
+              "EditorCaption": ""
             }
           ]
         }
