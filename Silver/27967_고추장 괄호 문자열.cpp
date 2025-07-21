@@ -11,17 +11,12 @@ int main()
 	cin >> s;
 
 	int open=0;
-	int close=0;
 
 	for (int i=0; i<n; i++)
 	{
 		if (s[i] == '(')
 		{
 			open++;
-		}
-		else if (s[i] == ')')
-		{
-			close++;
 		}
 	}
 
@@ -37,10 +32,8 @@ int main()
 			else
 			{
 				s[i] = ')';
-				close++;
 			}
 		}
-		
 	}
 	cout << s;
 }
