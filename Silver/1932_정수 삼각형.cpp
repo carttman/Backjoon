@@ -5,63 +5,62 @@ using namespace std;
 
 int main()
 {
+	ios::sync_with_stdio(false);
+	cin.tie(NULL);
+	cout.tie(NULL);
+
 	int n;
 	cin >> n;
 
-	vector<vector<int>> triangle(n);
-	//int dp[501] = {0,};
+	vector<vector<int>> dp(n);
 
-	for (int i=0; i<triangle.size(); i++)
+	for (int i=0; i<dp.size(); i++)
 	{
 		for (int j=0; j<i+1; j++)
 		{
 			int tmp;
 			cin >> tmp;
 
-			triangle[i].push_back(tmp);
+			dp[i].push_back(tmp);
 		}
 	}
 
-	//dp[0] = triangle[0][0];
-	
-	/*for (int i=1; i<n; i++)
+	if (n==1)
 	{
-		for (int j=1; j<triangle[i].size(); j++)
-		{
-			dp[i] = max(dp[i-1] + triangle[i][j-1], dp[i-1] + triangle[i][j]);
-		}
-	}*/
+		cout << dp[0][0];
+		return 0;
+	}
 
-	vector<vector<int>> copy(n);
-	copy = triangle;
-
-	copy[1][0] = copy[1][0] + copy[0][0];
-	copy[1][1] = copy[1][1] + copy[0][0];
-
+	dp[1][0] = dp[1][0] + dp[0][0];
+	dp[1][1] = dp[1][1] + dp[0][0];
 
 	for (int i=2; i<n; i++)
 	{
-		for (int j=1; j<=copy[i].size(); j++)
+		for (int j=0; j<dp[i].size(); j++)
 		{	
-			if (j==1)//맨 왼쪽
+			if (j==0)//맨 왼쪽
 			{
-				copy[i][j-1] = copy[i][j-1] + copy[i-1][j-1];
+				dp[i][j] = dp[i][j] + dp[i-1][j];
 				
 			}
-			else if (j == copy[i].size())//맨 오른쪽
+			else if (j == dp[i].size()-1)//맨 오른쪽
 			{
-				copy[i][j - 1] = copy[i][j - 1] + copy[i - 1][j - 1];
+				dp[i][j] = dp[i][j] + dp[i-1][j-1];
 			}
 			else
 			{
-				copy[i][j-1] = copy[i][j-1] + max(copy[i-1][j-1], copy[i-1][j]);
+				dp[i][j] = dp[i][j] + max(dp[i-1][j-1], dp[i-1][j]);
 			}
-
-			
 		}
 	}
-	
 
-	cout << 1;
-	//cout << dp[n-1];
+	int mmax = 0;
+
+	for (int i=0; i<n; i++)
+	{
+		mmax = max(mmax, dp[n-1][i]);
+	}
+
+	cout << mmax;
+	return 0;
 }
