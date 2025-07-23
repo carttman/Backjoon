@@ -1,16 +1,9 @@
 #include <iostream>
-#include <queue>
 #include <vector>
-#include <limits.h>
+#include <queue>
 using namespace std;
 
-typedef pair<int, int> edge;
-int N, M;
-vector<int> dist;
-vector<bool> visited;
-vector<vector<edge>> mlist;
-int dijkstra(int start, int end);
-
+int MAX = 100001;
 
 int main()
 {
@@ -18,54 +11,71 @@ int main()
 	cin.tie(NULL);
 	cout.tie(NULL);
 
-	cin >> N >> M;
-	dist.resize(N + 1);
-	fill(dist.begin(), dist.end(), INT_MAX);
+	int n, m;
+	cin >> n >> m;
 
-	visited.resize(N + 1);
-	fill(visited.begin(), visited.end(), false);
-	mlist.resize(N + 1);
+	//vector<vector<int>> graph(n+1, vector<int>(m+1, MAX));
+	vector<vector<pair<int, int>>> graph(n+1);
+	priority_queue<pair<int, int>,  vector<pair<int, int>>,greater<pair<int, int>>> pq;
+	vector<int> dist(n+1, MAX);
 
-	for ( int i=0; i<M; i++)
+	for (int i=1; i<=m; i++)
 	{
-		int start, end, weight;
-		cin >> start >> end >> weight;
-		mlist[start].push_back(make_pair(end, weight));
+		int s, e, w;
+		cin >> s >> e >> w;
+		
+		//graph[s][e] = w;
+		graph[s].push_back({e, w});
 	}
-	int startIndex, endIndex;
-	cin >> startIndex >> endIndex;
 
-	int result = dijkstra(startIndex, endIndex);
-	cout << result << "\n";
-}
+	int start, end;
+	cin >> start >> end;
 
-int dijkstra(int start, int end)
-{
-	priority_queue<edge, vector<edge>, greater<edge>> pq;
-
-	pq.push(make_pair(0, start));
 	dist[start] = 0;
+	//시작 (가중치, 시작노드)
+	pq.push({0, start});
 
 	while (!pq.empty())
 	{
-		edge nownode = pq.top();
+		//현재 가중치, 노드
+		pair<int, int> currentNode = pq.top();
+		int cw = currentNode.first;
+		int cs = currentNode.second;
+
 		pq.pop();
-		int now = nownode.second;
 
-		if (!visited[now])
+		if (cw > dist[cs])
+			continue;
+
+		for (const pair<int, int>& edge : graph[cs])
 		{
-			visited[now] = true;
+			int nextNode = edge.first;
+			int weight = edge.second;
 
-			for (edge n : mlist[now])
+			if (weight < MAX)
 			{
-				if (!visited[n.first] && dist[n.first] > dist[now] + n.second)
+				if (dist[nextNode] > cw + weight)
 				{
-					dist[n.first] = dist[now] + n.second;
-					pq.push(make_pair(dist[n.first], n.first));
+					dist[nextNode] = cw + weight;
+					pq.push({dist[nextNode], nextNode});
 				}
 			}
 		}
+
+		//for (int ce = 1; ce < graph[cs].size(); ce++)
+		//{	//현재 노드와 연결된 노드만 순회한다
+		//	if (graph[cs][ce] < MAX)
+		//	{
+		//		if (dist[ce] > cw + graph[cs][ce])
+		//		{
+		//			dist[ce] = cw + graph[cs][ce];
+		//			pq.push({dist[ce], ce});
+		//		}
+		//	}
+		//}
 	}
 
-	return dist[end];
+	cout << dist[end];
+
+	return 0;
 }

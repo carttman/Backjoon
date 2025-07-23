@@ -12,7 +12,7 @@ int main()
 
 	for (int k=1; k<n; k++)
 	{
-		for (int i=0; i<=9; i++)
+		for (int i=0; i<10; i++)
 		{
 			if (i==0)
 			{
@@ -28,14 +28,14 @@ int main()
 			}
 		}
 
-		for (int i=0; i<=9; i++)
+		for (int i=0; i<10; i++)
 		{
 			dp[i] = dp2[i];
 		}
 	}
 
 	int sum = 0;
-	for (int i=0; i<=9; i++)
+	for (int i=0; i<10; i++)
 	{
 		sum = (sum + dp[i]) % 1000000000;
 	}
