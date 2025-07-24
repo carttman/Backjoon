@@ -3,7 +3,7 @@
 #include <queue>
 using namespace std;
 
-int MAX = 100001;
+int MAX = 100000001;
 
 int main()
 {
@@ -14,7 +14,6 @@ int main()
 	int n, m;
 	cin >> n >> m;
 
-	//vector<vector<int>> graph(n+1, vector<int>(m+1, MAX));
 	vector<vector<pair<int, int>>> graph(n+1);
 	priority_queue<pair<int, int>,  vector<pair<int, int>>,greater<pair<int, int>>> pq;
 	vector<int> dist(n+1, MAX);
@@ -24,7 +23,6 @@ int main()
 		int s, e, w;
 		cin >> s >> e >> w;
 		
-		//graph[s][e] = w;
 		graph[s].push_back({e, w});
 	}
 
@@ -61,18 +59,6 @@ int main()
 				}
 			}
 		}
-
-		//for (int ce = 1; ce < graph[cs].size(); ce++)
-		//{	//현재 노드와 연결된 노드만 순회한다
-		//	if (graph[cs][ce] < MAX)
-		//	{
-		//		if (dist[ce] > cw + graph[cs][ce])
-		//		{
-		//			dist[ce] = cw + graph[cs][ce];
-		//			pq.push({dist[ce], ce});
-		//		}
-		//	}
-		//}
 	}
 
 	cout << dist[end];
