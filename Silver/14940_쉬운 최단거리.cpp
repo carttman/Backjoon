@@ -5,7 +5,7 @@
 using namespace std;
 
 typedef pair<int, int> Node;
-vector<Node> Dir = {{-1, 0}, {1, 0}, {0,-1}, {0, 1}};
+vector<Node> dir = {{-1, 0}, {1, 0}, {0,-1}, {0, 1}};
 
 int main()
 {
@@ -43,8 +43,8 @@ int main()
 
 		for (int i=0; i<4; i++)
 		{
-			int nRow = curr.first + Dir[i].first;
-			int nCol = curr.second + Dir[i].second;
+			int nRow = curr.first + dir[i].first;
+			int nCol = curr.second + dir[i].second;
 
 			if (nRow >= 0 && nRow < n && nCol >= 0 && nCol < m)
 			{

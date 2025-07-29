@@ -118,5 +118,8 @@
     <ClCompile Include="20007_떡 돌리기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="26009_험난한 등굣길.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

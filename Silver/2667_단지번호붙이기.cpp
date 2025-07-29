@@ -6,7 +6,7 @@
 using namespace std;
 
 typedef pair<int, int> Node;
-vector<Node> Dir = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
+vector<Node> dir = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
 
 int main()
 {
@@ -61,8 +61,8 @@ int main()
 
 			for (int i = 0; i < 4; i++)
 			{
-				int nr = currNode.first + Dir[i].first;
-				int nc = currNode.second + Dir[i].second;
+				int nr = currNode.first + dir[i].first;
+				int nc = currNode.second + dir[i].second;
 
 				if (nr >= 0 && nr < n && nc >= 0 && nc < n)
 				{
