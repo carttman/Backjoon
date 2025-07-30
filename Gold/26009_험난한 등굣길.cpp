@@ -15,54 +15,62 @@ int main()
 
 	vector<vector<int>> mymap(n, vector<int>(m, 0));
 	vector<pair<int, int>> dir = {{1, 0}, {-1, 0}, {0, -1}, {0, 1}};
-
+	
 	int k;
 	cin >> k;
-
-	queue<tuple<int, int, int>> traffic_q;
 
 	for (int i=0; i<k; i++) 
 	{
 		int r, c, d;
 		cin >> r >> c >> d;
 
-		mymap[r-1][c-1] = -1;
-
-		if (!d)
-			continue;
-
-		traffic_q.emplace(r-1, c-1, d);
-	}
-
-	while (!traffic_q.empty())
-	{
-		auto curr_node = traffic_q.front();
-		int c_row = get<0>(curr_node);
-		int c_col = get<1>(curr_node);
-		int traffic_count = get<2>(curr_node);
-
-		traffic_q.pop();
-
-		if (!traffic_count)
-			continue;
-
-		for (int i=0; i<4; i++)
+		/*for (int j=0; j<n; j++)
 		{
-			int n_row = c_row + dir[i].first;
-			int n_col = c_col + dir[i].second;
-
-			if (n_row >= 0 && n_row < n && n_col >= 0 && n_col < m)
+			for (int k=0; k<m; k++)
 			{
-				if (!mymap[n_row][n_col])
+				if (abs((r-1) - j) + abs((c-1) - k) == d)
 				{
+					mymap[j][k] = -1;
 					
-				mymap[n_row][n_col] = - 1;
-
-				traffic_q.emplace(n_row, n_col, traffic_count - 1);
 				}
 			}
+		}*/
+		int row = r-1;
+		int col = c-1;
+
+		//맨 왼쪽
+		//if (col - d >= 0)
+		//{
+		//	mymap[row][col-d] = -1;
+		//}
+		//else
+		//{
+		//	mymap[row][0] = -1;
+		//}
+		//// 맨 오른쪽
+		//if (col + d < m)
+		//{
+		//	mymap[row][col+d] = -1;
+		//}
+		//else
+		//{
+		//	mymap[row][m-1];
+		//}
+
+
+
+
+		for (int k = col-d; k <= col+d; k++)
+		{
+			
+
+			mymap[row+k][k] = -1;
+			mymap[row-k][k] = -1;
 		}
+		
 	}
+
+	
 
 	queue<pair<int, int>> q;
 	q.emplace(0, 0);
@@ -104,14 +112,14 @@ int main()
 		cout << "NO" << "\n";
 	}
 
-	/*for (int i=0; i<n; i++)
+	for (int i=0; i<n; i++)
 	{
 		for (int j=0; j<m; j++)
 		{
 			cout << mymap[i][j] << " ";
 		}
 		cout << "\n";
-	}*/
+	}
 
 	return 0;
 }
