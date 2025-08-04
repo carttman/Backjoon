@@ -265,5 +265,8 @@
     <ClCompile Include="2941_크로아티아 알파벳.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="25206_너의 평점은.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
