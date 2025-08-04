@@ -142,5 +142,8 @@
     <ClCompile Include="1157_단어 공부.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2738_행렬 덧셈.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
