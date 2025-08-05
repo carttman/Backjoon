@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "D:\\Backjoon\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3AA222AA-9F55-4409-996E-EC0C8BB7FF94}|Bronze\\Bronze.vcxproj|D:\\Backjoon\\Bronze\\2903_\uC911\uC559 \uC774\uB3D9 \uC54C\uACE0\uB9AC\uC998.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3AA222AA-9F55-4409-996E-EC0C8BB7FF94}|Bronze\\Bronze.vcxproj|solutionrelative:Bronze\\2903_\uC911\uC559 \uC774\uB3D9 \uC54C\uACE0\uB9AC\uC998.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AA222AA-9F55-4409-996E-EC0C8BB7FF94}|Bronze\\Bronze.vcxproj|D:\\Backjoon\\Bronze\\2720_\uC138\uD0C1\uC18C \uC0AC\uC7A5 \uB3D9\uD601.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3AA222AA-9F55-4409-996E-EC0C8BB7FF94}|Bronze\\Bronze.vcxproj|solutionrelative:Bronze\\2720_\uC138\uD0C1\uC18C \uC0AC\uC7A5 \uB3D9\uD601.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AA222AA-9F55-4409-996E-EC0C8BB7FF94}|Bronze\\Bronze.vcxproj|D:\\Backjoon\\Bronze\\2745_\uC9C4\uBC95 \uBCC0\uD658.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3AA222AA-9F55-4409-996E-EC0C8BB7FF94}|Bronze\\Bronze.vcxproj|solutionrelative:Bronze\\2745_\uC9C4\uBC95 \uBCC0\uD658.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDC8CCC8-8641-43B6-AE91-B78BF450726D}|Silver\\Silver.vcxproj|D:\\Backjoon\\Silver\\2563_\uC0C9\uC885\uC774.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DDC8CCC8-8641-43B6-AE91-B78BF450726D}|Silver\\Silver.vcxproj|solutionrelative:Silver\\2563_\uC0C9\uC885\uC774.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AA222AA-9F55-4409-996E-EC0C8BB7FF94}|Bronze\\Bronze.vcxproj|D:\\Backjoon\\Bronze\\10798_\uC138\uB85C\uC77D\uAE30.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3AA222AA-9F55-4409-996E-EC0C8BB7FF94}|Bronze\\Bronze.vcxproj|solutionrelative:Bronze\\10798_\uC138\uB85C\uC77D\uAE30.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AA222AA-9F55-4409-996E-EC0C8BB7FF94}|Bronze\\Bronze.vcxproj|D:\\Backjoon\\Bronze\\2566_\uCD5C\uB313\uAC12.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3AA222AA-9F55-4409-996E-EC0C8BB7FF94}|Bronze\\Bronze.vcxproj|solutionrelative:Bronze\\2566_\uCD5C\uB313\uAC12.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3AA222AA-9F55-4409-996E-EC0C8BB7FF94}|Bronze\\Bronze.vcxproj|D:\\Backjoon\\Bronze\\2738_\uD589\uB82C \uB367\uC148.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3AA222AA-9F55-4409-996E-EC0C8BB7FF94}|Bronze\\Bronze.vcxproj|solutionrelative:Bronze\\2738_\uD589\uB82C \uB367\uC148.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -47,19 +71,97 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "2903_\uC911\uC559 \uC774\uB3D9 \uC54C\uACE0\uB9AC\uC998.cpp",
+              "DocumentMoniker": "D:\\Backjoon\\Bronze\\2903_\uC911\uC559 \uC774\uB3D9 \uC54C\uACE0\uB9AC\uC998.cpp",
+              "RelativeDocumentMoniker": "Bronze\\2903_\uC911\uC559 \uC774\uB3D9 \uC54C\uACE0\uB9AC\uC998.cpp",
+              "ToolTip": "D:\\Backjoon\\Bronze\\2903_\uC911\uC559 \uC774\uB3D9 \uC54C\uACE0\uB9AC\uC998.cpp",
+              "RelativeToolTip": "Bronze\\2903_\uC911\uC559 \uC774\uB3D9 \uC54C\uACE0\uB9AC\uC998.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-08-05T08:10:14.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "2720_\uC138\uD0C1\uC18C \uC0AC\uC7A5 \uB3D9\uD601.cpp",
+              "DocumentMoniker": "D:\\Backjoon\\Bronze\\2720_\uC138\uD0C1\uC18C \uC0AC\uC7A5 \uB3D9\uD601.cpp",
+              "RelativeDocumentMoniker": "Bronze\\2720_\uC138\uD0C1\uC18C \uC0AC\uC7A5 \uB3D9\uD601.cpp",
+              "ToolTip": "D:\\Backjoon\\Bronze\\2720_\uC138\uD0C1\uC18C \uC0AC\uC7A5 \uB3D9\uD601.cpp",
+              "RelativeToolTip": "Bronze\\2720_\uC138\uD0C1\uC18C \uC0AC\uC7A5 \uB3D9\uD601.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-08-05T07:21:20.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "2745_\uC9C4\uBC95 \uBCC0\uD658.cpp",
+              "DocumentMoniker": "D:\\Backjoon\\Bronze\\2745_\uC9C4\uBC95 \uBCC0\uD658.cpp",
+              "RelativeDocumentMoniker": "Bronze\\2745_\uC9C4\uBC95 \uBCC0\uD658.cpp",
+              "ToolTip": "D:\\Backjoon\\Bronze\\2745_\uC9C4\uBC95 \uBCC0\uD658.cpp",
+              "RelativeToolTip": "Bronze\\2745_\uC9C4\uBC95 \uBCC0\uD658.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-08-05T06:08:58.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "2563_\uC0C9\uC885\uC774.cpp",
+              "DocumentMoniker": "D:\\Backjoon\\Silver\\2563_\uC0C9\uC885\uC774.cpp",
+              "RelativeDocumentMoniker": "Silver\\2563_\uC0C9\uC885\uC774.cpp",
+              "ToolTip": "D:\\Backjoon\\Silver\\2563_\uC0C9\uC885\uC774.cpp",
+              "RelativeToolTip": "Silver\\2563_\uC0C9\uC885\uC774.cpp",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAswBcAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-08-05T03:39:29.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "10798_\uC138\uB85C\uC77D\uAE30.cpp",
+              "DocumentMoniker": "D:\\Backjoon\\Bronze\\10798_\uC138\uB85C\uC77D\uAE30.cpp",
+              "RelativeDocumentMoniker": "Bronze\\10798_\uC138\uB85C\uC77D\uAE30.cpp",
+              "ToolTip": "D:\\Backjoon\\Bronze\\10798_\uC138\uB85C\uC77D\uAE30.cpp",
+              "RelativeToolTip": "Bronze\\10798_\uC138\uB85C\uC77D\uAE30.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-08-05T01:19:42.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "2566_\uCD5C\uB313\uAC12.cpp",
+              "DocumentMoniker": "D:\\Backjoon\\Bronze\\2566_\uCD5C\uB313\uAC12.cpp",
+              "RelativeDocumentMoniker": "Bronze\\2566_\uCD5C\uB313\uAC12.cpp",
+              "ToolTip": "D:\\Backjoon\\Bronze\\2566_\uCD5C\uB313\uAC12.cpp",
+              "RelativeToolTip": "Bronze\\2566_\uCD5C\uB313\uAC12.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-08-05T00:59:14.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "2738_\uD589\uB82C \uB367\uC148.cpp",
               "DocumentMoniker": "D:\\Backjoon\\Bronze\\2738_\uD589\uB82C \uB367\uC148.cpp",
               "RelativeDocumentMoniker": "Bronze\\2738_\uD589\uB82C \uB367\uC148.cpp",
               "ToolTip": "D:\\Backjoon\\Bronze\\2738_\uD589\uB82C \uB367\uC148.cpp",
               "RelativeToolTip": "Bronze\\2738_\uD589\uB82C \uB367\uC148.cpp",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAACUAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-08-04T15:10:43.065Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "25206_\uB108\uC758 \uD3C9\uC810\uC740.cpp",
               "DocumentMoniker": "D:\\Backjoon\\Silver\\25206_\uB108\uC758 \uD3C9\uC810\uC740.cpp",
               "RelativeDocumentMoniker": "Silver\\25206_\uB108\uC758 \uD3C9\uC810\uC740.cpp",
@@ -67,12 +169,11 @@
               "RelativeToolTip": "Silver\\25206_\uB108\uC758 \uD3C9\uC810\uC740.cpp",
               "ViewState": "AgIAAAMAAAAAAAAAAAAmwBAAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-08-04T10:35:31.378Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-04T10:35:31.378Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "2941_\uD06C\uB85C\uC544\uD2F0\uC544 \uC54C\uD30C\uBCB3.cpp",
               "DocumentMoniker": "D:\\Backjoon\\Silver\\2941_\uD06C\uB85C\uC544\uD2F0\uC544 \uC54C\uD30C\uBCB3.cpp",
               "RelativeDocumentMoniker": "Silver\\2941_\uD06C\uB85C\uC544\uD2F0\uC544 \uC54C\uD30C\uBCB3.cpp",
@@ -84,7 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "1316_\uADF8\uB8F9 \uB2E8\uC5B4 \uCCB4\uCEE4.cpp",
               "DocumentMoniker": "D:\\Backjoon\\Silver\\1316_\uADF8\uB8F9 \uB2E8\uC5B4 \uCCB4\uCEE4.cpp",
               "RelativeDocumentMoniker": "Silver\\1316_\uADF8\uB8F9 \uB2E8\uC5B4 \uCCB4\uCEE4.cpp",
@@ -96,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "1157_\uB2E8\uC5B4 \uACF5\uBD80.cpp",
               "DocumentMoniker": "D:\\Backjoon\\Bronze\\1157_\uB2E8\uC5B4 \uACF5\uBD80.cpp",
               "RelativeDocumentMoniker": "Bronze\\1157_\uB2E8\uC5B4 \uACF5\uBD80.cpp",
@@ -109,7 +210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "2579_\uACC4\uB2E8 \uC624\uB974\uAE30.cpp",
               "DocumentMoniker": "D:\\Backjoon\\Silver\\2579_\uACC4\uB2E8 \uC624\uB974\uAE30.cpp",
               "RelativeDocumentMoniker": "Silver\\2579_\uACC4\uB2E8 \uC624\uB974\uAE30.cpp",
@@ -121,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "2579_\uACC4\uB2E8 \uC624\uB974\uAE30.cpp",
               "DocumentMoniker": "D:\\Backjoon\\Backjoon\\2579_\uACC4\uB2E8 \uC624\uB974\uAE30.cpp",
               "RelativeDocumentMoniker": "Backjoon\\2579_\uACC4\uB2E8 \uC624\uB974\uAE30.cpp",
