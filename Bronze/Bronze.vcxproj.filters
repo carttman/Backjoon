@@ -163,5 +163,8 @@
     <ClCompile Include="11005_진법 변환2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="5086_배수와 약수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
