@@ -190,8 +190,14 @@
     <ClCompile Include="9063_대지.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="10101_.삼각형 외우기.cpp" />
+    <ClCompile Include="10101_삼각형 외우기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="5073_삼각형과 세 변.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="14215_ 세 막대.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
