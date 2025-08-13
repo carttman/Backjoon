@@ -199,5 +199,32 @@
     <ClCompile Include="14215_ 세 막대.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="24262_알고리즘 수업 - 알고리즘의 수행 시간 1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="24263_알고리즘 수업 - 알고리즘의 수행 시간 2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="24264_알고리즘 수업 - 알고리즘의 수행 시간 3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="24265_알고리즘 수업 - 알고리즘의 수행 시간 4.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="24266_알고리즘 수업 - 알고리즘의 수행 시간 5.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="24267_알고리즘 수업 - 알고리즘의 수행 시간 6.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="19532_수학은 비대면강의입니다.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2587_대표값2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="25305_커트라인.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
