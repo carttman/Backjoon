@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\Backjoon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DDC8CCC8-8641-43B6-AE91-B78BF450726D}|Silver\\Silver.vcxproj|D:\\Backjoon\\Silver\\28278_\uC2A4\uD0DD 2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DDC8CCC8-8641-43B6-AE91-B78BF450726D}|Silver\\Silver.vcxproj|solutionrelative:Silver\\28278_\uC2A4\uD0DD 2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{DDC8CCC8-8641-43B6-AE91-B78BF450726D}|Silver\\Silver.vcxproj|D:\\Backjoon\\Silver\\2346_\uD48D\uC120 \uD130\uB728\uB9AC\uAE30.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DDC8CCC8-8641-43B6-AE91-B78BF450726D}|Silver\\Silver.vcxproj|solutionrelative:Silver\\2346_\uD48D\uC120 \uD130\uB728\uB9AC\uAE30.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "28278_\uC2A4\uD0DD 2.cpp",
-              "DocumentMoniker": "D:\\Backjoon\\Silver\\28278_\uC2A4\uD0DD 2.cpp",
-              "RelativeDocumentMoniker": "Silver\\28278_\uC2A4\uD0DD 2.cpp",
-              "ToolTip": "D:\\Backjoon\\Silver\\28278_\uC2A4\uD0DD 2.cpp",
-              "RelativeToolTip": "Silver\\28278_\uC2A4\uD0DD 2.cpp",
-              "ViewState": "AgIAACYAAAAAAAAAAAAowEAAAAAEAAAAAAAAAA==",
+              "Title": "2346_\uD48D\uC120 \uD130\uB728\uB9AC\uAE30.cpp",
+              "DocumentMoniker": "D:\\Backjoon\\Silver\\2346_\uD48D\uC120 \uD130\uB728\uB9AC\uAE30.cpp",
+              "RelativeDocumentMoniker": "Silver\\2346_\uD48D\uC120 \uD130\uB728\uB9AC\uAE30.cpp",
+              "ToolTip": "D:\\Backjoon\\Silver\\2346_\uD48D\uC120 \uD130\uB728\uB9AC\uAE30.cpp",
+              "RelativeToolTip": "Silver\\2346_\uD48D\uC120 \uD130\uB728\uB9AC\uAE30.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-08-13T14:57:10.77Z",
+              "WhenOpened": "2025-08-15T11:40:25.813Z",
               "EditorCaption": ""
             }
           ]
