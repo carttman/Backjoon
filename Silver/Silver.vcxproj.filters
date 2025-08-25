@@ -313,5 +313,11 @@
     <ClCompile Include="2346_풍선 터뜨리기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="13900_창문 닫기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1010_다리 놓기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

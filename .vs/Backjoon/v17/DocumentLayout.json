@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\Backjoon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DDC8CCC8-8641-43B6-AE91-B78BF450726D}|Silver\\Silver.vcxproj|D:\\Backjoon\\Silver\\2346_\uD48D\uC120 \uD130\uB728\uB9AC\uAE30.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DDC8CCC8-8641-43B6-AE91-B78BF450726D}|Silver\\Silver.vcxproj|solutionrelative:Silver\\2346_\uD48D\uC120 \uD130\uB728\uB9AC\uAE30.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3AA222AA-9F55-4409-996E-EC0C8BB7FF94}|Bronze\\Bronze.vcxproj|D:\\Backjoon\\Bronze\\1009_\uBD84\uC0B0\uCC98\uB9AC.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3AA222AA-9F55-4409-996E-EC0C8BB7FF94}|Bronze\\Bronze.vcxproj|solutionrelative:Bronze\\1009_\uBD84\uC0B0\uCC98\uB9AC.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "2346_\uD48D\uC120 \uD130\uB728\uB9AC\uAE30.cpp",
-              "DocumentMoniker": "D:\\Backjoon\\Silver\\2346_\uD48D\uC120 \uD130\uB728\uB9AC\uAE30.cpp",
-              "RelativeDocumentMoniker": "Silver\\2346_\uD48D\uC120 \uD130\uB728\uB9AC\uAE30.cpp",
-              "ToolTip": "D:\\Backjoon\\Silver\\2346_\uD48D\uC120 \uD130\uB728\uB9AC\uAE30.cpp",
-              "RelativeToolTip": "Silver\\2346_\uD48D\uC120 \uD130\uB728\uB9AC\uAE30.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAcAAAAAAAAAA==",
+              "Title": "1009_\uBD84\uC0B0\uCC98\uB9AC.cpp",
+              "DocumentMoniker": "D:\\Backjoon\\Bronze\\1009_\uBD84\uC0B0\uCC98\uB9AC.cpp",
+              "RelativeDocumentMoniker": "Bronze\\1009_\uBD84\uC0B0\uCC98\uB9AC.cpp",
+              "ToolTip": "D:\\Backjoon\\Bronze\\1009_\uBD84\uC0B0\uCC98\uB9AC.cpp",
+              "RelativeToolTip": "Bronze\\1009_\uBD84\uC0B0\uCC98\uB9AC.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowBoAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-08-15T11:40:25.813Z",
+              "WhenOpened": "2025-08-25T14:21:55.399Z",
               "EditorCaption": ""
             }
           ]
