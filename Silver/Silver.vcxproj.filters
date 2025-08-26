@@ -319,5 +319,8 @@
     <ClCompile Include="1010_다리 놓기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2485_가로수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
