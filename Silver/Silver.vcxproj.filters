@@ -322,5 +322,8 @@
     <ClCompile Include="2485_가로수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="4134_다음 소수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
