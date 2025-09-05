@@ -334,5 +334,14 @@
     <ClCompile Include="25192_인사성 밝은 곰곰이.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="26069_붙임성 좋은 총총이.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="20920_영단어 암기는 괴로워.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="4673_셀프 넘버.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

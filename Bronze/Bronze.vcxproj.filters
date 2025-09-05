@@ -250,5 +250,14 @@
     <ClCompile Include="1037_약수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="10718_We love kriii.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1110_더하기 사이클.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2742_기찍 N.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
