@@ -8,7 +8,7 @@ bool Visited[8];
 int answer[8];
 
 vector<int> answer2;
-void BackTracking(int start)
+void BackTracking(int size)
 {
 	if (answer2.size() == m)
 	{
@@ -20,7 +20,7 @@ void BackTracking(int start)
 		return;
 	}
 
-	for (int i = start; i <= n; i++)
+	for (int i = size; i <= n; i++)
 	{
 		answer2.push_back(i);
 		BackTracking(i + 1);
