@@ -5,9 +5,9 @@ using namespace std;
 int n, m;
 int Numbers[7];
 
-void BackTracking(int start)
+void BackTracking(int size)
 {
-	if (start == m)
+	if (size == m)
 	{
 		for (int i = 0; i < m; i++)
 		{
@@ -20,9 +20,9 @@ void BackTracking(int start)
 
 	for (int i = 0; i < n; i++)
 	{
-		Numbers[start] = i;
+		Numbers[size] = i;
 
-		BackTracking(start + 1);
+		BackTracking(size + 1);
 	}
 }
 
