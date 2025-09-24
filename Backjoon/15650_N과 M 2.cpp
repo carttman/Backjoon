@@ -3,35 +3,36 @@
 
 using namespace std;
 
-vector<int> A;
-int N, M;
+int n, m;
+bool Visited[8];
+int answer[8];
 
+vector<int> answer2;
 void BackTracking(int start)
 {
-	if (A.size() == M)
+	if (answer2.size() == m)
 	{
-		for (int n : A)
-		{
-			cout << n << " ";
-		}
-		cout << "\n";
+		for (const auto& i : answer2)
+			cout << i << " ";
+
+		cout << '\n';
 
 		return;
 	}
 
-	for (int i = start; i<= N; i++)
+	for (int i = start; i <= n; i++)
 	{
-		A.push_back(i);
+		answer2.push_back(i);
 		BackTracking(i + 1);
-		A.pop_back();
+		answer2.pop_back();
 	}
-
 }
 
 int main()
 {
-
-	cin >> N >> M;
+	cin >> n >> m;
 
 	BackTracking(1);
+
+	return 0;
 }
