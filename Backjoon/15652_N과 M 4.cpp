@@ -6,7 +6,7 @@ using namespace std;
 int N, M;
 vector<int> temp;
 
-void BackTracking(int start)
+void BackTracking(int size)
 {
 	if (temp.size() == M)
 	{
@@ -20,7 +20,7 @@ void BackTracking(int start)
 		return;
 	}
 
-	for (int i=start; i<=N; i++)
+	for (int i=size; i<=N; i++)
 	{
 		temp.push_back(i);
 		BackTracking(i);
