@@ -8,7 +8,7 @@ int N, M;
 vector<int> A;
 vector<int> Temp;
 
-void BackTracking(int start)
+void BackTracking(int size)
 {
 	if (Temp.size() == M)
 	{
@@ -24,7 +24,7 @@ void BackTracking(int start)
 
 	int lastUsed = -1;
 
-	for (int i = start; i < N; i++)
+	for (int i = size; i < N; i++)
 	{
 		if (lastUsed != A[i])
 		{
