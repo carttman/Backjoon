@@ -400,5 +400,14 @@
     <ClCompile Include="9184_신나는 함수 실행.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="14888_연산자 끼워넣기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="15657_N과 M 8.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="15655_N과 M 6.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
