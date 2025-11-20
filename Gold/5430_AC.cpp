@@ -1,87 +1,111 @@
+#include <deque>
 #include <iostream>
-#include <sstream>
-#include <vector>
-
+#include <string>
 using namespace std;
-
-vector<int> splitCommaToInt(const string& s, char delimiter)
-{
-	string temp;
-
-	for (int i=1; i<s.size()-1; i++)
-	{
-		temp.push_back(s[i]);
-	}
-
-	istringstream iss(temp);
-	string buffer;
-
-	vector<int> arr;
-	
-	while (getline(iss, buffer, delimiter))
-	{
-		int n;
-		n = stoi(buffer);
-		arr.push_back(n);
-	}
-
-	return arr;
-}
-
-vector<int> Reverse(vector<int>& arr)
-{
-	vector<int> temp;
-
-	for (int i=arr.size()-1; i = 0; i--)
-	{
-		temp.push_back(arr[i]);
-	}
-
-	return temp;
-}
-
 
 int main()
 {
+	ios::sync_with_stdio(false);
+	cin.tie(NULL);
+	cout.tie(NULL);
+
 	int t;
 	cin >> t;
 
-	for (int i=0; i<t; i++)
+	while (t--)
 	{
-		string p;
-		cin >> p;
+		string s;
+		cin >> s;
+
+		deque<int> numbers;
 
 		int n;
 		cin >> n;
 
-		vector<int> numbers(n);
+		string snum;
+		cin >> snum;
 
-		string arrString;
-		cin >> arrString;
-
-		numbers = splitCommaToInt(arrString, ',');
-
-		if (numbers.empty())
+		string temp;
+		for (int i = 1; i < snum.size() - 1; i++)
 		{
-			cout << "error" << "\n";
-			continue;
+			if (snum[i] == ',')
+			{
+				numbers.push_back(stoi(temp));
+				temp = "";
+			}
+			else
+				temp += snum[i];
 		}
 
-		for (int j=0; j<p.size(); j++)
+		if (!temp.empty())
+			numbers.push_back(stoi(temp));
+
+		bool isReverse = false;
+		bool isError = false;
+
+		for (int i = 0; i < s.size(); i++)
 		{
-			if (p[i] == 'R')
+			if (s[i] == 'R')
 			{
-				numbers = Reverse(numbers);
+				if (!isReverse)
+					isReverse = true;
+				else
+					isReverse = false;
 			}
 			else
 			{
-				
+				if (!numbers.empty())
+				{
+					if (isReverse)
+						numbers.pop_back();
+					else
+						numbers.pop_front();
+				}
+				else
+				{
+					isError = true;
+					break;
+				}
 			}
 		}
 
-		for (int j=0; j<numbers.size(); j++)
+		if (isError)
 		{
-			cout << numbers[i] << " ";
+			cout << "error" << '\n';
+			continue;
 		}
+		
+		if (!numbers.empty())
+		{
+			cout << '[';
+			if (isReverse)
+			{
+				for (auto it = numbers.rbegin(); it != numbers.rend(); it++)
+				{
+					if (it == numbers.rend() - 1)
+						cout << *it;
+					else
+						cout << *it << ',';
+				}
+			}
+			else
+			{
+				for (auto it = numbers.begin(); it != numbers.end(); it++)
+				{
+					if (it == numbers.end() - 1)
+						cout << *it;
+					else
+						cout << *it << ',';
+				}
+			}
+			cout << ']';
+		}
+		else
+			cout << "[]";
+		
+		if (t > 0)
+			cout << '\n';
 	}
+
+	return 0;
 }
