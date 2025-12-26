@@ -3,71 +3,22 @@
 
 using namespace std;
 
-vector<int> parent;
-void unionFunc(int a, int b);
-int find(int a);
-bool checkSame(int a, int b);
-
-
-int main()
+static vector<int> parent;
+int find(int a)
 {
-	ios::sync_with_stdio(false);
-	cin.tie(NULL);
-	cout.tie(NULL);
+	if (a == parent[a])
+		return a;
 
-	int N, M;
-	cin >> N >> M;
-	parent.resize(N + 1);
-
-	for(int i=0; i<= N; i++)
-	{
-		parent[i] = i;
-	}
-
-	for(int i=0; i<M; i++)
-	{
-		int question, a, b;
-		cin >> question >> a >> b;
-
-		if(question == 0)
-		{
-			unionFunc(a, b);
-		}
-		else
-		{
-			if(checkSame(a, b))
-			{
-				cout << "YES" << "\n";
-			}
-			else
-			{
-				cout << "NO" << "\n";
-			}
-		}
-	}
+	return parent[a] = find(parent[a]);
 }
 
-void unionFunc(int a, int b)
+void unionfunc(int a, int b)
 {
 	a = find(a);
 	b = find(b);
 
-	if(a != b)
-	{
+	if (a != b)
 		parent[b] = a;
-	}
-}
-
-int find(int a)
-{
-	if(a == parent[a])
-	{
-		return a;
-	}
-	else
-	{
-		return parent[a] = find(parent[a]);
-	}
 }
 
 bool checkSame(int a, int b)
@@ -75,11 +26,39 @@ bool checkSame(int a, int b)
 	a = find(a);
 	b = find(b);
 
-	if(a == b)
-	{
+	if (a == b)
 		return true;
-	}
-	
+
 	return false;
-	
+}
+
+int main()
+{
+	ios::sync_with_stdio(false);
+	cin.tie(nullptr);
+	cout.tie(nullptr);
+
+	int n, m;
+	cin >> n >> m;
+
+	parent.resize(n + 1);
+
+	for (int i = 0; i <= n; i++)
+		parent[i] = i;
+
+	for (int i = 0; i < m; i++)
+	{
+		int question, a, b;
+		cin >> question >> a >> b;
+
+		if (!question)
+			unionfunc(a, b);
+		else
+			if (checkSame(a, b))
+				cout << "YES" << '\n';
+			else
+				cout << "NO" << '\n';
+	}
+
+	return 0;
 }
