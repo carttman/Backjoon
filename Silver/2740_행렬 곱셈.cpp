@@ -1,37 +1,48 @@
+#include <algorithm>
 #include <iostream>
+#include <string>
 #include <vector>
-
+#include <algorithm>
+#include <bitset>
+#include <deque>
+#include <limits.h>
+#include <cmath>
+#include <map>
+#include <set>
 using namespace std;
+
+int a[100][100];
+int b[100][100];
+int ans[100][100];
 
 int main()
 {
-	int y1, x1;
-	cin >> y1 >> x1;
+	ios::sync_with_stdio(false);
+	cin.tie(nullptr);
+	cout.tie(nullptr);
 
-	vector<vector<int>> matrix1(y1, vector<int>(x1, 0));
+	int N, M, K;
+	cin >> N >> M;
+	for (int i = 0; i < N; i++)
+		for (int j = 0; j < M; j++)
+			cin >> a[i][j];
 
-	for (int i=0; i<y1; i++)
+	cin >> M >> K;
+	for (int i = 0; i < M; i++)
+		for (int j = 0; j < K; j++)
+			cin >> b[i][j];
+
+	for (int i = 0; i < N; i++)
 	{
-		for (int j=0; j<x1; j++)
+		for (int j = 0; j < K; j++)
 		{
-			cin >> matrix1[i][j];
+			for (int k = 0; k < M; k++)
+				ans[i][j] += a[i][k] * b[k][j];
+
+			cout << ans[i][j] << ' ';
 		}
+		cout << '\n';
 	}
-
-	int y2, x2;
-	cin >> y2 >> x2;
-
-	vector<vector<int>> matrix2(y2, vector<int>(x2, 0));
-
-	for (int i=0; i<y2; i++)
-	{
-		for (int j=0; j<x2; j++)
-		{
-			cin >> matrix2[i][j];
-		}
-	}
-
-
 
 	return 0;
 }
