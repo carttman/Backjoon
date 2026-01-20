@@ -11,19 +11,19 @@ int main()
 	int n, k;
 	cin >> n >> k;
 
-	vector<int> a(n);
-	for (int i = 0; i < n; i++)
-		cin >> a[i];
+	vector<int> a(n + 1, 0);
 
-	vector<int> b(n);
-	b[0] = a[0];
-	for (int i = 1; i < n; i++)
-		b[i] = b[i - 1] + a[i];
+	for (int i = 1; i <= n; i++)
+	{
+		int tmp;
+		cin >> tmp;
+		a[i] = a[i - 1] + tmp;
+	}
 
-	int mx = b[k - 1];
+	int mx = a[k];
 
-	for (int i = k; i < n; i++)
-		mx = max(mx, b[i] - b[i - k]);
+	for (int i = k + 1; i <= n; i++)
+		mx = max(mx, a[i] - a[i - k]);
 
 	cout << mx;
 
