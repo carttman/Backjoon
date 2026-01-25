@@ -34,6 +34,8 @@ int main()
 			{
 				if (a[i] > b[j])
 					cnt++;
+				else
+					break;
 			}
 		}
 
